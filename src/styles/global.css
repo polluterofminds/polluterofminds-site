@@ -1,0 +1,23 @@
+/* ./src/styles/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+body, html {
+  background: #282828;
+}
+
+.text-black {
+  color: #282828!important;
+}
+
+.kg-image-card, .kg-embed-card {
+  margin-top: 2rem;
+}
+
+.kg-embed-card {
+  padding: 15px;
+  background: #fff;
+  border-radius: 10px;
+}
