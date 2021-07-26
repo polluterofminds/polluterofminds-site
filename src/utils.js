@@ -14,7 +14,6 @@ const monthMapper = {
 }
 
 export const prettyDate = (date) => {
-  console.log(date)
   const dateObj = new Date(date);
   const month = dateObj.getUTCMonth() + 1; //months from 1-12
   const day = dateObj.getUTCDate();

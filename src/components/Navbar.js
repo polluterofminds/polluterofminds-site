@@ -20,7 +20,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Popover className="relative">
+    <Popover className="z-40 relative">
       {({ open }) => (
         <>
           <div className="text-white flex justify-between items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-10">
@@ -31,7 +31,7 @@ export default function Navbar() {
               </Link>
             </div>
             <div className="-mr-2 -my-2 md:hidden">
-              <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+              <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                 <span className="sr-only">Open menu</span>
                 <MenuIcon className="h-6 w-6" aria-hidden="true" />
               </Popover.Button>
@@ -49,6 +49,18 @@ export default function Navbar() {
                   className="text-base font-medium text-gray-500 hover:text-gray-900"
                 >
                   About
+                </Link>
+                <Link
+                  to="/now"
+                  className="text-base font-medium text-gray-500 hover:text-gray-900"
+                >
+                  Now
+                </Link>
+                <Link
+                  to="/books"
+                  className="text-base font-medium text-gray-500 hover:text-gray-900"
+                >
+                  Books
                 </Link>
               </Popover.Group>
             </div>
@@ -69,38 +81,43 @@ export default function Navbar() {
               static
               className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
             >
-              <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
+              <div className="bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 divide-y-2 divide-gray-50">
                 <div className="pt-5 pb-6 px-5">
                   <div className="flex items-center justify-between">
-                    <div>
-                      <img
-                        className="h-8 w-auto"
-                        src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                        alt="Workflow"
-                      />
-                    </div>
                     <div className="-mr-2">
-                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                      <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                         <span className="sr-only">Close menu</span>
                         <XIcon className="h-6 w-6" aria-hidden="true" />
                       </Popover.Button>
                     </div>
                   </div>
                 </div>
-                <div className="py-6 px-5">
+                <div className="bg-white py-6 px-5">
                   <div className="grid grid-cols-2 gap-4">
-                    <a
-                      href="#"
+                    <Link
+                      to="/studios"
                       className="text-base font-medium text-gray-900 hover:text-gray-700"
                     >
                       Studios
-                    </a>
-                    <a
-                      href="#"
+                    </Link>
+                    <Link
+                      to="/about"
                       className="text-base font-medium text-gray-900 hover:text-gray-700"
                     >
                       About
-                    </a>
+                    </Link>
+                    <Link
+                      to="/now"
+                      className="text-base font-medium text-gray-900 hover:text-gray-700"
+                    >
+                      Now
+                    </Link>
+                    <Link
+                      to="/books"
+                      className="text-base font-medium text-gray-900 hover:text-gray-700"
+                    >
+                      Books
+                    </Link>
                   </div>
                 </div>
               </div>

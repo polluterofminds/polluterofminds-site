@@ -5,11 +5,7 @@ const Posts = ({ edges, sectionHeading }) => {
   const [ogPosts] = useState(edges);
   const [postsToShow, setPostsToShow] = useState(edges);
   const [postsLimit, setPostLimit] = useState(10);
-  useEffect(() => {
-    if (edges.length > 10) {
-      setPostsToShow(edges.splice(0, 10));
-    }
-  }, [edges]);
+
   const loadMore = () => {
     const newLimit = postsLimit + 10;
     setPostLimit(newLimit);

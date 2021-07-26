@@ -3,7 +3,6 @@ import { Link } from "gatsby";
 import { prettyDate } from "../utils";
 
 const PostLink = ({ post }) => {
-  console.log(post);
   return (
     <div key={post.frontmatter.title} className="mt-8">
       <Link to={post.frontmatter.slug} className="mt-2 block">

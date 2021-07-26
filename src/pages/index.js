@@ -13,7 +13,7 @@ export default function index({
   return (
     <Fragment>
       <Navbar />
-      <div className="min-h-screen flex flex-col justify-between">        
+      <div className="z-30 min-h-screen flex flex-col justify-between">        
         <Hero />
         <Posts edges={edges} sectionHeading="From The Blog" />
         <Footer />
@@ -24,7 +24,7 @@ export default function index({
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }, filter: { frontmatter: { title: { ne: "" } } }) {
       edges {
         node {
           id

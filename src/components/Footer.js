@@ -4,9 +4,9 @@ const Footer = () => {
   const footerNavigation = {
     main: [
       { name: 'About', href: '/about' },
-      { name: 'Writing', href: '/writing' },
+      { name: 'Books', href: '/books' },
       { name: 'Now', href: '/now' },
-      { name: 'Press & Talks', href: '/press' },     
+      { name: 'Press & Talks', href: '/coverage' },     
     ],
     social: [
       {

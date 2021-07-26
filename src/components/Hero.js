@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from 'gatsby'
+import EmailForm from "./EmailForm";
 
 const Hero = () => {
   return (
@@ -18,28 +19,7 @@ const Hero = () => {
               </p>
               <p className="mt-3 max-w-3xl text-lg leading-6 text-black">Want to know what I'm working on <Link className="text-black" to="/now"><u>now</u></Link>? Want to <Link to="/contact"><u>work with me</u></Link>? Maybe you just want to see some of the cool things I've been <Link to="/studios"><u>building for writers</u></Link>.</p>
             </div>
-            <div className="mt-8 sm:w-full sm:max-w-md xl:mt-0 xl:ml-8">
-              <form className="sm:flex">
-                <label htmlFor="email-address" className="sr-only">
-                  Email address
-                </label>
-                <input
-                  id="email-address"
-                  name="email-address"
-                  type="email"
-                  autoComplete="email"
-                  required
-                  className="w-full border-white px-5 py-3 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white rounded-md"
-                  placeholder="Enter your email"
-                />
-                <button
-                  type="submit"
-                  className="mt-3 w-full flex items-center justify-center px-5 py-3 border border-transparent shadow text-base font-medium rounded-md text-black bg-indigo-500 hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0"
-                >
-                  Join the club
-                </button>
-              </form>              
-            </div>
+            <EmailForm />
           </div>
         </div>
       </div>
