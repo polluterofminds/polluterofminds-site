@@ -4,6 +4,7 @@ import { ChevronRightIcon } from '@heroicons/react/solid'
 import { StaticImage } from "gatsby-plugin-image"
 import Navbar from "../components/Navbar";
 import { Link } from "gatsby";
+import Head from "../components/Head";
 
 const links = [
   { title: 'About', description: 'Just a little about me, the mind polluter.', icon: BookOpenIcon, location: "/about" },
@@ -78,6 +79,7 @@ const social = [
 const NotFoundPage = () => {
   return (
     <div className="bg-white">
+      <Head title={"Whoops!"} />
       <Navbar />
       <main className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-xl mx-auto py-16 sm:py-24">

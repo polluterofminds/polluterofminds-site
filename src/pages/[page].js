@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import NotFoundPage from "./404";
+import Head from "../components/Head";
 
 const Page = ({
   data: {
@@ -17,6 +18,7 @@ const Page = ({
     .html;
   return (
     <Fragment>
+      <Head title={"polluterofminds"} description="The home of Justin Hunter—writer, engineer, product person" image="https://i.imgur.com/6kXe1BP.png" />
       <Navbar />
       <div className="min-h-screen flex flex-col justify-between">
         <div className="relative py-16 bg-black overflow-hidden">

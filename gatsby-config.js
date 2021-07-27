@@ -6,11 +6,39 @@ module.exports = {
   plugins: [
     "gatsby-plugin-image",
     `gatsby-plugin-sitemap`,
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sitemap",
+    "gatsby-plugin-react-helmet",    
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`, // Needed for dynamic images
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        query: `
+        {
+          allSitePage {
+            nodes {
+              path
+            }
+          }          
+        }
+      `,
+        output: "/sitemap.xml",
+        resolveSiteUrl: () => siteUrl,
+        resolvePages: ({
+          allSitePage: { nodes: allPages }
+        }) => {
+          return allPages.map(page => {
+            return { ...page }
+          })
+        },
+        serialize: ({ path, modifiedGmt }) => {
+          return {
+            url: path,
+            lastmod: modifiedGmt,
+          }
+        },
+      },
+    },
     {
       resolve: `gatsby-plugin-feed`,
       options: {
@@ -59,7 +87,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Your Site's RSS Feed",
+            title: "polluterofminds RSS Feed",
           },
         ],
       },

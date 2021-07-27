@@ -3,6 +3,8 @@ import { graphql, Link } from "gatsby";
 import Navbar from "../components/Navbar";
 import { prettyDate } from "../utils";
 import Footer from "../components/Footer";
+import EmailForm from "../components/EmailForm";
+import Head from "../components/Head";
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
@@ -10,6 +12,7 @@ export default function Template({
   const { frontmatter, html } = markdownRemark;
   return (
     <div>
+      <Head title={frontmatter.title} description={frontmatter.excerpt || html.replace(/<[^>]*>/g, "").slice(0, 50)} image="https://i.imgur.com/6kXe1BP.png" />
       <Navbar />
       <div className="relative py-16 bg-black overflow-hidden">
         <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
@@ -107,6 +110,9 @@ export default function Template({
             </div>
             <div className="mt-10">
               <div dangerouslySetInnerHTML={{ __html: html }} />
+            </div>
+            <div className="mt-20">
+              <EmailForm />
             </div>
           </div>
         </div>

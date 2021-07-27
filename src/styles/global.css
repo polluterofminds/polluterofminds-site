@@ -25,3 +25,11 @@ body, html {
 blockquote p {
   color: #282828!important;
 }
+
+.mastfoot {
+  display: none!important;
+}
+
+.main-form input {
+  font-family: inherit!important;
+}
