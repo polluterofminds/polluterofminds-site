@@ -23,7 +23,7 @@ module.exports = {
         }
       `,
         output: "/sitemap.xml",
-        resolveSiteUrl: () => siteUrl,
+        resolveSiteUrl: () => "https://polluterofminds.com",
         resolvePages: ({
           allSitePage: { nodes: allPages }
         }) => {

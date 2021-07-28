@@ -8,6 +8,8 @@ I write books in addition to writing software and blog posts. My books are liste
 
 ## The Impostor's Guide To Learning How To Code
 
+![Book cover - Impostor's Guide](../images/impostor.webp)
+
 My account of overcoming doubt and impostor syndrome while taking the non-traditional path to learning how to code. [Available for pre-order now](https://polluterofminds.gumroad.com/l/YdVtr)!
 
 ---
@@ -25,13 +27,16 @@ I will be releasing drafts of each chapter as I write and asking you all for fee
 ### In Progress Table of Contents
 
 * [Introduction](https://bit.ly/2RWv6NR)
-* [Chapter One](https://bit.ly/3wIHwrE)
-* [Chapter Two](https://bit.ly/3huw7XI)
-* [Chapter Three](https://bit.ly/2USWayY)
-* [Chapter Four](https://bit.ly/3hTq3Iy)
-* [Chapter Five](https://bit.ly/3zukzda)
+* [On Being An Impostor](https://bit.ly/3wIHwrE)
+* [Finding Your Purpose](https://bit.ly/3huw7XI)
+* [Learning To Learn](https://bit.ly/2USWayY)
+* [The Wall](https://bit.ly/3hTq3Iy)
+* [Impostor Syndrome](https://bit.ly/3zukzda)
+* [There Is No Right Way](https://bit.ly/3iR988v)
 
 ## Leaving Arizona
+
+![Book cover - Leaving Arizona](../images/leaving_arizona.jpg)
 
 Buy it on [Amazon](https://www.amazon.com/Leaving-Arizona-Justin-Hunter/dp/1952050022/ref=sr_1_1?dchild=1&keywords=leaving+arizona+justin+hunter&qid=1618147193&sr=8-1), [IndieBound](https://www.indiebound.org/book/9781952050022), or anywhere books are sold.
 

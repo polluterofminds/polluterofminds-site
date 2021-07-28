@@ -2,7 +2,6 @@ import React, { Fragment } from "react";
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from 'gatsby'
 import EmailForm from "./EmailForm";
-import { Helmet } from "react-helmet";
 
 const Hero = () => {
   return (
