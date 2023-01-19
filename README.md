@@ -1,1 +1,0 @@
-This is the repository for polluterofminds.com. It is a Gatsby site with TailwindUI elements and Tailwind CSS. 

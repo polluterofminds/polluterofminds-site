@@ -1,0 +1,35 @@
+---
+layout: main
+title: Post Archives
+pagination:
+    data: collections.posts
+    size: 5
+    alias: posts
+    reverse: true
+---
+<h2>All Articles</h2>
+<div>
+{% for post in posts %}
+    <a href="{{ post.url }}">
+        <div class="post-list-render">
+            <h3>{{post.data.title}}</h3>
+            {% if post.excerpt %}
+                <p>{{post.excerpt}}</p>
+            {% endif %}
+            <p class="post-date">{{ post.date | date: "%b %d, %Y"}}</p>
+        </div>
+    </a>
+{% endfor %}
+</div>
+<p>
+    {% if pagination.href.previous %}
+    <a href="{{ pagination.href.previous }}">Previous</a>
+    {% else %}
+    Previous
+    {% endif %} / 
+    {% if pagination.href.next %}
+    <a href="{{ pagination.href.next }}">Next</a>
+    {% else %}
+    Next
+    {% endif %}
+</p>

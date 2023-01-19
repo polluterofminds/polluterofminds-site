@@ -1,0 +1,19 @@
+---
+layout: main
+title: Speaking & Press Coverage
+pagination:
+    data: collections.media
+    size: 1000
+    alias: media
+    reverse: true
+---
+<h2>Speaking and Press Coverage</h2>
+{% for appearance in media %}
+   
+        <div class="post-list-render">
+            <a href="{{ appearance.data.link }}"><h3>{{appearance.data.title}}</h3>  </a> 
+            <p class="post-date">{{ appearance.date | date: "%b %d, %Y"}}</p>
+        </div>
+    
+{% endfor %}
+</div>
