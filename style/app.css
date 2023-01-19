@@ -37,8 +37,8 @@ h1, h2, h3, h4 {
 
 p {
   font-family: 'Quicksand';
-  font-size: 18px;
-  line-height: 1.5rem;
+  font-size: 1.75rem;
+  line-height: 2rem;
 }
 
 .logo:visited {
@@ -63,7 +63,7 @@ p {
 }
 
 .header .links a {
-  font-size: 20px;
+  font-size: 1.25rem;
   margin: 5px;
   padding: 5px;
   text-decoration: none;
@@ -139,25 +139,41 @@ footer {
   }
 }
 
-@media (max-width: 950px) {
+@media screen and (max-width: 1000px) {
   .header {
     flex-direction: column;
     margin-bottom: 50px;   
     justify-content: center;
     align-items: center;
     text-align: center; 
+    font-size: 40px;
   }
 
-  .header .links .a {
-    font-size: 14px;
+ 
+
+  body {
+    width: 85%;
   }
 
   .blog {
-    max-width: 85%;
+    max-width: 95%;
     margin: auto;
   }
 
   .blog p {
-    font-size: 18px;
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+  }
+
+  .header .links a {
+    font-size: 3rem;
+  }
+
+  .hero-profile-img {
+    height: 250px;
+    width: 250px;
+    border-radius: 1000px;
+    margin: auto;
+    margin-top: 50px;
   }
 }
