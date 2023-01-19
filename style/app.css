@@ -11,6 +11,12 @@
 :root {
   --color-bg: #282828;
   --color-fg: #dedede;
+  --color-link: rgb(159, 159, 255);
+}
+
+a {
+  color: var(--color-link);
+  font-weight: 600;
 }
 
 .element {
@@ -84,7 +90,7 @@ p {
 }
 
 .about-img {
-  max-width: 40%;
+  max-width: 200px;
   margin-top: 50px;
   border-radius: 1000px;
 }
@@ -102,11 +108,13 @@ p {
 }
 
 .post-date {
-  font-size: 16px;
+  font-size: 14px;
+  margin-top: -10px;
 }
 
 footer {
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .blog {
@@ -119,10 +127,15 @@ footer {
   line-height: 1.75rem;
 }
 
+.blog-page {
+  margin-top: 50px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --color-bg: #ffffff;
     --color-fg: #000000;
+    --color-link: rgb(68, 68, 173);
   }
 }
 

@@ -3,22 +3,23 @@ layout: main
 title: Post Archives
 pagination:
     data: collections.posts
-    size: 5
+    size: 20
     alias: posts
     reverse: true
 ---
-<h2>All Articles</h2>
+<div class="blog-page">
+<h1>All Articles</h1>
 <div>
 {% for post in posts %}
-    <a href="{{ post.url }}">
+    
         <div class="post-list-render">
-            <h3>{{post.data.title}}</h3>
+            <a href="{{ post.url }}"> <h2>{{post.data.title}}</h2></a>
             {% if post.excerpt %}
                 <p>{{post.excerpt}}</p>
             {% endif %}
             <p class="post-date">{{ post.date | date: "%b %d, %Y"}}</p>
         </div>
-    </a>
+    
 {% endfor %}
 </div>
 <p>
@@ -33,3 +34,4 @@ pagination:
     Next
     {% endif %}
 </p>
+</div>

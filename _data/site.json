@@ -1,6 +1,15 @@
 {
+  "url": "https://polluterofminds.com", 
   "author": {
       "name": "Justin Hunter",
-      "twitter": "@polluterofminds"
-  }
+      "twitter": "@polluterofminds", 
+      "email": "justin@polluterofminds.com"
+  }, 
+  "feed": {
+		"subtitle": "Articles about product management, entrepreneurship, tech, and more.",
+		"filename": "feed.xml",
+		"path": "/feed/feed.xml",
+		"url": "https://polluterofminds.com/feed/feed.xml",
+		"id": "https://polluterofminds.com/"
+	}
 }
