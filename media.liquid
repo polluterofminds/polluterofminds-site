@@ -11,7 +11,7 @@ pagination:
 {% for appearance in media %}
    
         <div class="post-list-render">
-            <a href="{{ appearance.data.link }}"><h3>{{appearance.data.title}}</h3>  </a> 
+            <a href="{{ appearance.data.link }}"><h2>{{appearance.data.title}}</h2>  </a> 
             <p class="post-date">{{ appearance.date | date: "%b %d, %Y"}}</p>
         </div>
     
