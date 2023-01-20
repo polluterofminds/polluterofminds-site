@@ -2,46 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/speaking/blockstack_berlin/</loc>
-    <lastmod>2018-03-22T14:02:33Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>/speaking/dweb_summit/</loc>
-    <lastmod>2018-08-02T14:02:33Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>/speaking/decentralized_world_tour/</loc>
-    <lastmod>2018-10-25T14:02:33Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>/speaking/bridge_academy/</loc>
-    <lastmod>2019-04-09T14:02:33Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>/speaking/coindesk_live_consensus/</loc>
-    <lastmod>2019-05-15T14:02:33Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>/speaking/token_summit/</loc>
-    <lastmod>2019-05-16T14:02:33Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>/speaking/cogx/</loc>
-    <lastmod>2019-06-12T14:02:33Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>/speaking/nodejs_meetup/</loc>
-    <lastmod>2019-06-30T14:02:33Z</lastmod>
-  </url>
-  
-  <url>
     <loc>/blog/building-products-that-solve-problems/</loc>
     <lastmod>2019-09-20T15:59:44Z</lastmod>
   </url>
