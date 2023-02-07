@@ -4,12 +4,56 @@
   <subtitle>Articles about product management, entrepreneurship, tech, and more.</subtitle>
   <link href="https://polluterofminds.com/feed/feed.xml" rel="self"/>
   <link href="https://polluterofminds.com"/>
-  <updated>2023-02-06T15:15:04Z</updated>
+  <updated>2023-02-07T14:54:05Z</updated>
   <id>https://polluterofminds.com</id>
   <author>
     <name>Justin Hunter</name>
     <email>justin@polluterofminds.com</email>
   </author>
+  
+  <entry>
+    <title>Landing Pages Are Not MVPs</title>
+    <link href="https://polluterofminds.com/blog/landing_pages_are_not_mvps/"/>
+    <updated>2023-02-07T14:54:05Z</updated>
+    <id>https://polluterofminds.com/blog/landing_pages_are_not_mvps/</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://flashbak.com/wp-content/uploads/2018/10/vintage-cereal-toys.png&quot; alt=&quot;Cereal Box Prizes from the 1970s and 1980s - Flashbak&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;When I was young, I would beg for cereal almost exclusively based on the toy that was supposed to be inside. My youth was at the tail end of the era when toys actually came in the box. I can still remember pulling a small die-cast race car (I think it was a NASCAR promotion) from my cereal box as a kid. I played with that car for years. My kids may have even played with it when they were younger. The gratification of getting a toy just by eating cereal was unbeatable.&lt;/p&gt;
+&lt;p&gt;And then it all changed.&lt;/p&gt;
+&lt;p&gt;In the early to mid-2000s cereal companies (probably because of recalls and choking hazards) stopped including toys in cereal boxes. Instead, kids would dig through the box only to find an IOU—a cardboard card asking them to get a parent to mail in for the prize. Hundreds of thousands of kids got to feel the feeling that we all feel today when we visit a slick new landing page where we are excited to try a product only to be presented with an email collection form instead of the product.&lt;/p&gt;
+&lt;p&gt;Landing page MVPs are not MVPs. They are the failed promises of cereal box toys.&lt;/p&gt;
+&lt;p&gt;What exactly is a landing page MVP? It&#39;s a marketing site promising an application under the guise that the person visiting the site may get access to the app. However, in reality, it&#39;s an email collection machine designed to determine demand for an idea. If you follow the indie hacking community at all, you&#39;ve surely heard this concept touted as the solution to stop you from building apps that no one wants.&lt;/p&gt;
+&lt;p&gt;Swyx, a very popular info products indie hacker, &lt;a href=&quot;https://www.indiehackers.com/@swyx/dd474c1b2d&quot;&gt;wrote an article about landing pages&lt;/a&gt; and said this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As an indie hacker, it is often (but not always) best to &lt;em&gt;start&lt;/em&gt; with the landing page and then work backwards. Amazon famously &lt;a href=&quot;http://www.allthingsdistributed.com/2006/11/working_backwards.html&quot;&gt;starts every product process by writing the press release&lt;/a&gt;, and your equivalent is the landing page. This helps you start doing customer research (&lt;a href=&quot;https://www.wired.co.uk/article/waze-uri-levine&quot;&gt;falling in love with the problem&lt;/a&gt;) while iterating on your marketing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;When planning a product cycle, I also start with marketing first. I write a document for marketing as if we&#39;re already launching the product. This helps align me and the team around the why behind what we&#39;re doing. That document is not shared with the public. The same is true with Amazon&#39;s famous product development process. They are not putting the fake press release in front of customers, they are using it as an internal framing tool.&lt;/p&gt;
+&lt;p&gt;There is a real issue with developers and product people falling in love with the problem and getting tunnel vision around solving that problem without validating it with the market. However, I do not believe landing pages solve this problem. Here&#39;s what a landing page will prove to you:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;That you can drive traffic to your site (very good thing to be able to do when you have a product)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;That people are willing to give you an email address (or not) for updates on the product.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Potential extrapolated buying market (if you include a fake buy now button)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Point three is the most problematic, in my opinion. If you include a buy now button and people are clicking on it, can you actually extrapolate the results of that test to indicate the potential market? This depends on the source of the traffic you drove to your landing page. Did they come from an email list you already have? There&#39;s a good chance you already know if those people are willing to buy or not, but do you know if people not on the list are willing to buy? Did the traffic come from ads? How long did the ads run, what were the targets? How will you replicate the traffic without ads?&lt;/p&gt;
+&lt;p&gt;There are probably a hundred other questions I could ask, but I&#39;ll leave it there. Driving traffic to your site is important, collecting email addresses is important, and some indication of buying potential is important. But none of those things are an MVP. You may be sending up false flags to yourself.&lt;/p&gt;
+&lt;p&gt;Your landing page MVP could also distract you from doing the real work—talking to customers. Everyone wants to scale tedious tasks, but a landing page does not actually scale the real task of talking to customers. Landing pages get you high-level quantitative data, but getting on the phone gets you qualitative data. And it is in that qualitative data where you will learn the most about the problems people have.&lt;/p&gt;
+&lt;p&gt;Jason Fried, the founder of Basecamp, &lt;a href=&quot;https://37signals.com/podcast/build-half-a-product-not-a-half-assed-project/&quot;&gt;talks about building MVPs like this&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Well, the MVP notion is like, you’re not even building a full product. You’re building the minimum viable thing to test. It’s more about, you build it to test. I don’t personally like the approach of building something to test. I think you build something to ship.&lt;/p&gt;
+&lt;p&gt;Because I think if you only have this tiny, minimal core of something and you ask people what they think of it, they don’t have the whole thing to think through.&lt;/p&gt;
+&lt;p&gt;They don’t have all the context, they don’t have all the stuff. They just have this little small piece. And then you take that information, then you do something with it, but I think it’s incomplete information. So my feeling is, your 1.0, your initial version you launch, is both minimal, it’s viable, but it’s also the whole thing. It’s not a slice of what the whole thing’s going to become. Eventually you add more and more and more, but it’s not treated mentally as this thing that you’re just putting out there to see what happens. It’s like, no, this is the thing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;With a landing page, people have almost no context. They haven&#39;t felt the thing you want to test. They haven&#39;t experienced it. If someone would have put a landing page for eggplant parmesan in front of me 20 years ago and asked if I thought I&#39;d like it, I would have said no. Instead, my step mother put a plate of it in front of me and told me to try it. It was through that experience that I learned I like eggplant parmesan. The same is true with products.&lt;/p&gt;
+&lt;p&gt;The right way to approach MVPs is to start with a problem. Iterate on the problem by talking to people. If you don&#39;t know how to talk to people about product and software problems, I recommend reading &lt;a href=&quot;https://www.momtestbook.com/&quot;&gt;The Mom Test by Rob Fitzpatrick&lt;/a&gt;. As you learn about the problem, you can start to &lt;a href=&quot;https://polluterofminds.com/blog/dont_shrink_the_scope_of_the_solution,_shrink_the_scope_of_the_problem/&quot;&gt;shrink the scope of the problem&lt;/a&gt;. This will make building your MVP more manageable and more likely to be adopted.&lt;/p&gt;
+&lt;p&gt;Once you have a scoped-down problem, iterate on the solution. Roll something out AND create a landing page for that thing. Now people have a nice way to learn about what you&#39;re building as well as a nice way to actually test the product. The insights you get from this will be far more valuable than what you get from just a landing page.&lt;/p&gt;
+&lt;p&gt;Some people might argue that building anything is a waste of time without validating it. I argue that validation is the process of discovery, and you cannot discover everything you need to learn without having a product to put in front of someone. Put the toys back in the cereal box. Put the eggplant in front of your target customers.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Shrink The Scope Of The Problem</title>

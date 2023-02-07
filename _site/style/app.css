@@ -132,6 +132,17 @@ footer {
   margin-top: 50px;
 }
 
+.blog p img {
+  max-width: 100%;
+  margin: auto;
+}
+
+blockquote {
+  border-left: 8px solid rgb(141, 141, 141);
+  padding-left: 16px;
+  font-style: italic;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --color-bg: #ffffff;
