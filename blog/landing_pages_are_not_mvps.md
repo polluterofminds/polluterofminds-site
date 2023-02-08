@@ -42,10 +42,10 @@ Your landing page MVP could also distract you from doing the real work—talking
 
 Jason Fried, the founder of Basecamp, [talks about building MVPs like this](https://37signals.com/podcast/build-half-a-product-not-a-half-assed-project/):
 
-> Well, the MVP notion is like, you’re not even building a full product. You’re building the minimum viable thing to test. It’s more about, you build it to test. I don’t personally like the approach of building something to test. I think you build something to ship.  
->   
-> Because I think if you only have this tiny, minimal core of something and you ask people what they think of it, they don’t have the whole thing to think through.  
->   
+> Well, the MVP notion is like, you’re not even building a full product. You’re building the minimum viable thing to test. It’s more about, you build it to test. I don’t personally like the approach of building something to test. I think you build something to ship.
+> 
+> Because I think if you only have this tiny, minimal core of something and you ask people what they think of it, they don’t have the whole thing to think through.
+> 
 > They don’t have all the context, they don’t have all the stuff. They just have this little small piece. And then you take that information, then you do something with it, but I think it’s incomplete information. So my feeling is, your 1.0, your initial version you launch, is both minimal, it’s viable, but it’s also the whole thing. It’s not a slice of what the whole thing’s going to become. Eventually you add more and more and more, but it’s not treated mentally as this thing that you’re just putting out there to see what happens. It’s like, no, this is the thing.
 
 With a landing page, people have almost no context. They haven't felt the thing you want to test. They haven't experienced it. If someone would have put a landing page for eggplant parmesan in front of me 20 years ago and asked if I thought I'd like it, I would have said no. Instead, my step mother put a plate of it in front of me and told me to try it. It was through that experience that I learned I like eggplant parmesan. The same is true with products.
