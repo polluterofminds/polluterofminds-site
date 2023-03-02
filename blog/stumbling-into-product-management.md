@@ -25,7 +25,7 @@ In this role, I was helping shape the product, but it wasn't "product management
 
 My title was business analyst, but I was working with engineers and suggesting new features. I was even helping QA releases. Some of this was beyond the scope of my job, but, once again, I leaned.
 
-Eventually, my family and I were ready to move on to new adventures. Serendipitously, I had read a Medium post by one of the co-founders of a company called SlideRoom before we moved to Dallas. The company, as it turned out, was based in Dallas. My resume did not suggest that I was ready to jump into the startup world, but I took a shot. After months of talking with the founders, I was eventually offered a job as...
+Eventually, my family and I were ready to move on to new adventures. Serendipitously, I had read a Medium post by one of the co-founders of a company called SlideRoom before we moved to Dallas. The company, as it turned out, was based in Dallas. My resume did not suggest that I was ready to jump into the startup world, but I took a shot. After months of talking with the founders, I was eventually offered a job as…
 
 An account manager.
 
