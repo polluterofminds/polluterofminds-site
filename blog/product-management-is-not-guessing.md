@@ -6,4 +6,4 @@ excerpt: "null"
 status: "draft"
 tags: []
 ---
-Just build the plane while it's in the air. You may have heard this phrase or something similar.
+Just build the plane while it's in the air. You may have heard this phrase or something similar. The sentiment behind it makes sense. You want to figure things out as you go. You want to move fast.
