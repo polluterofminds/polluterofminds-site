@@ -1,11 +1,14 @@
 ---
-slug: "/how-to-start-a-business-without-even-trying"
-date: "2020-07-22T13:38:17.000Z"
-title: "How to Start a Business Without Even Trying"
-excerpt: "If you're waiting for the right moment to do something, that moment may never come. Things don't always happen for a reason. Sometimes, they happen by accident. "
-status: "published"
-layout: "post"
-tags: "posts"
+slug: /how-to-start-a-business-without-even-trying
+date: '2020-07-22T13:38:17.000Z'
+title: How to Start a Business Without Even Trying
+excerpt: >-
+  If you're waiting for the right moment to do something, that moment may never
+  come. Things don't always happen for a reason. Sometimes, they happen by
+  accident. 
+status: published
+layout: post
+tags: posts
 ---
 After I left my last startup, I started looking for my next gig. This, of course, meant the dreaded job application. While I have spent the couple years working for myself, and while I love it, I thought it was time to try working for a startup again. As it would turn out, I ended up working for myself in a freelancing/contractor role anyway, but that's beside the point of this post. Instead, I want to tell you one of the stories I told in most of my cover letters/interviews when applying to jobs. It reminded me of how we can accidentally find our way into entrepreneurship.
 

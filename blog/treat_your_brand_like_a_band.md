@@ -1,13 +1,15 @@
 ---
-slug: "/treat_your_brand_like_a_band"
-title: "Treat Your Brand Like a Band"
-date: "2023-02-09T13:12:03.996Z"
-excerpt: "null"
-status: "draft"
-layout: "post"
-tags: ["posts"]
+slug: /treat_your_brand_like_a_band
+title: Treat Your Brand Like a Band
+date: '2023-02-09T13:12:03.996Z'
+excerpt: 'null'
+status: draft
+layout: post
+tags:
+  - posts
 ---
 ![](https://polluterofminds.mypinata.cloud/ipfs/QmQMWBCqvC7BbRTmJSmhjUHXT3tSzuF6mma5qV6einKhkb)
+
 
 On October 20, 1977, a mid-size private plane ran out of fuel, crashing into the woods outside of Gillsburg, Mississippi. The crash killed Lynyrd Skynyrd lead vocalist Ronnie Van Zant, guitarist Steve Gaines, and backup vocalist Cassie Gaines, among others. At the time of the crash, Skynyrd was one of the biggest rock bands in the world. They dominated southern rock and seemed to transcend rock around the world.
 

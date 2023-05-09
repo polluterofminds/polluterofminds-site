@@ -4,12 +4,41 @@
   <subtitle>Articles about product management, entrepreneurship, tech, and more.</subtitle>
   <link href="https://polluterofminds.com/feed/feed.xml" rel="self"/>
   <link href="https://polluterofminds.com"/>
-  <updated>2023-03-11T15:45:07Z</updated>
+  <updated>2023-05-09T18:01:17Z</updated>
   <id>https://polluterofminds.com</id>
   <author>
     <name>Justin Hunter</name>
     <email>justin@polluterofminds.com</email>
   </author>
+  
+  <entry>
+    <title>Small p Product</title>
+    <link href="https://polluterofminds.com/blog/Small-p-Product/"/>
+    <updated>2023-05-09T18:01:17Z</updated>
+    <id>https://polluterofminds.com/blog/Small-p-Product/</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.midjourney.com/77eafee9-8703-42ca-b03a-be5018197099/0_1.png&quot; alt=&quot;a boy building small toys&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;A few years ago, Tom Critchlow—whom I&#39;ve been fortunate enough to get to know recently—wrote a post about &amp;quot;&lt;a href=&quot;https://tomcritchlow.com/2018/02/23/small-b-blogging/&quot;&gt;Small b Blogging&lt;/a&gt;.&amp;quot; The idea was simple. As the web has grown, the ways we can and do share our thoughts have also changed. We often exchange freedom for convenience and reach. And that&#39;s OK. But you should still leave room for what Tom calls blogging with a small &amp;quot;b&amp;quot;. Personal blogs on your own site (or that you at least have some sort of archival control over) is small b blogging. I recently re-read that post and it got the product wheels spinning in my mind.&lt;/p&gt;
+&lt;p&gt;The web was originally a bunch of independent sites run by nerds who just wanted to share their thoughts and interact with other nerds. Similarly, as the web progressed, those same nerds started writing software that would run natively on the web. These were small, independent apps. Sometimes they&#39;d cost some money, but more often than not, they were just there because the person who created them wanted them to be there. As the web took off and reached world scale, the notion of startups as we know them today began to rise. Products were things to be funded, to be scaled, to be sold. There was still a place for small, independent apps. But that place seemed to be relegated to side projects and hobbyist adventures.&lt;/p&gt;
+&lt;p&gt;Two years ago, &lt;a href=&quot;https://polluterofminds.com/blog/make-small-apps/&quot;&gt;I wrote about making small apps&lt;/a&gt;. I had been tinkering with side apps since coming off two failed startups. Making something for the sake of making it was attractive. But at the same time, I felt the pressure to make money.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If I listen to my backlog, this thing is going to grow to be too big, too complex for me to manage as an indie. I have not yet launched out of alpha, but I am happy with the product now. My former MFA cohort uses the app and is happy with it. So, this means I might just leave it alone, even at the risk of it not being something people will pay for.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;That pressure, of course, came from me and me alone. But at the time, I hadn&#39;t quite built up the mental separation of apps you build to learn and for fun from apps built to make money. About a month after I wrote that post about making small apps, &lt;a href=&quot;https://polluterofminds.com/blog/your-app-might-not-be-a-business/&quot;&gt;I recognized the separation and wrote about it&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you think your app is a business (and it&#39;s ok to have an app NOT be a business), then you need to charge for it. And charge for it early.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Products are things you can sell. Apps are things you build. An app becomes a product when you receive money for it. It seems simple, but it&#39;s not, especially when we have Silicon Valley success stories constantly thrust before our eyes, making us feel like a successful product isn&#39;t one that makes thousands of dollars or even hundreds of thousands. It&#39;s one that makes hundreds of millions. The antidote to this has been indie apps and indie builders (two different things, mind you).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.indiehackers.com/&quot;&gt;IndieHackers&lt;/a&gt; was a wonderful destination for several years for people wanting to build something by themselves and charge money for it. They were indie hacking &lt;em&gt;products&lt;/em&gt;. These were people who believed in the idea of small p product.&lt;/p&gt;
+&lt;p&gt;Just like Tom suggests with small b blogging, small p product has a small scope but a similar feel to big p product. The goal is to make something that people pay money for. And similar to small b blogging having a much wider opportunity for discovery (there isn&#39;t just one homepage for the internet now), small p product presents people with a much wider opportunity for discovery and revenue generation than ever before. The re-distribution of the web creates opportunity.&lt;/p&gt;
+&lt;p&gt;Getting started with a product—especially a small p product—has never been easier. When I think back to the mid-to-late 90s and sitting in my Dad&#39;s kitchen as a 12- or 13-year-old kid, I am shocked at how hard it was to make money online. But then I take a step back and remember how new the web was back then. Today, if my Dad and I were having that same conversation, we&#39;d have a couple of dozen ideas by lunchtime. Even better, we could probably launch one or two of them by the next day.&lt;/p&gt;
+&lt;p&gt;That&#39;s what small p products offer. You can still build small apps, of course. An app is just that until someone pays you money for it. And if you don&#39;t care to have anyone pay money for it, that&#39;s fine too. Tom helped build &lt;a href=&quot;https://quotebacks.net/&quot;&gt;quotebacks&lt;/a&gt;. It doesn&#39;t make him any money, and from talking with him about it, I think he is 100% OK with that.&lt;/p&gt;
+&lt;p&gt;I&#39;ve built two small p products in the last few years:&lt;/p&gt;
+&lt;p&gt;1. Write/Sprint - a simple iOS app for timing writing sprints ($0.99)&lt;/p&gt;
+&lt;p&gt;2. Perligo - a feedback collection app for writers ($5.99/month)&lt;/p&gt;
+&lt;p&gt;I&#39;m writing this post in an app that I hope will be my next small p product, but let&#39;s see where things take me.&lt;/p&gt;
+&lt;p&gt;The web is such a magical place. We should take advantage of it in blogging and in creating products.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>How To Drive Your Organization To Use Its Own Product</title>
@@ -567,8 +596,8 @@ They result in an endless chase of the glory days. Like a broken former football
     <updated>2021-06-29T10:31:34Z</updated>
     <id>https://polluterofminds.com/blog/how-to-talk-to-customers/</id>
     <content type="html">&lt;p&gt;I often get asked how to talk to customers. This question comes from engineers, product people, new founders, and others. I get this question because I have started &lt;a href=&quot;https://graphitedocs.com/&quot;&gt;two&lt;/a&gt; &lt;a href=&quot;https://simpleid.xyz/&quot;&gt;companies&lt;/a&gt; in the past and I&#39;ve written about the power of talking and asking questions of the very people we hope to serve and sell to. But the immediate problem I see with most of the questions I get is in the initial framing of the question.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;How do I talk to customers?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;You don&#39;t. You should never be talking to customers or prospects. You should be talking &lt;em&gt;&lt;strong&gt;with&lt;/strong&gt;&lt;/em&gt; them. What&#39;s the difference?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;How do I talk to customers?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You don&#39;t. You should never be talking to customers or prospects. You should be talking &lt;strong&gt;&lt;em&gt;with&lt;/em&gt;&lt;/strong&gt; them. What&#39;s the difference?&lt;/p&gt;
 &lt;p&gt;When you talk to someone, you are driving the conversation. You are conveying your thoughts, sharing your ideas, inundating the recipient with your biases. This is a great thing for conference talks and conversations at the bar. However, it&#39;s a terrible thing when trying to learn about the problems of a customer base you are hoping to tap into.&lt;/p&gt;
 &lt;p&gt;By talking &lt;em&gt;to&lt;/em&gt; customers, you ultimately lead them without recognizing it. Rob Fitzpatrick wrote in &lt;a href=&quot;http://momtestbook.com/&quot;&gt;The Mom Test&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -578,11 +607,10 @@ They result in an endless chase of the glory days. Like a broken former football
 &lt;p&gt;But knowing that you shouldn&#39;t be talking *to *customers (or better put—potential customers) doesn&#39;t make it any easier to understand how to talk *with *them. I&#39;ve put together a simple framework that has served me well and might work for you too.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Think about the things the person you&#39;re going to talk with needs to accomplish in a day. This is often referred to as &lt;strong&gt;jobs to be done&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Have a standardized list of questions ready for every discussion and every potential customer. These questions absolutely must be open-ended. They also cannot be leading. What does that look like in practice? Here&#39;s an example: &amp;quot;What was the last software product you used, and why did you use it?&amp;quot; This question is awesome because it can hint at so many things, but it also parlays nicely into point 3 in this framework...&lt;/li&gt;
+&lt;li&gt;Have a standardized list of questions ready for every discussion and every potential customer. These questions absolutely must be open-ended. They also cannot be leading. What does that look like in practice? Here&#39;s an example: &amp;quot;What was the last software product you used, and why did you use it?&amp;quot; This question is awesome because it can hint at so many things, but it also parlays nicely into point 3 in this framework…&lt;/li&gt;
 &lt;li&gt;Listen and follow up. A good question can turn pointless if you don&#39;t follow up on the person&#39;s response. If a potential custom tells you they last used Instagram because they were trying to find some design inspiration from designers they follow, it&#39;d be reasonable to follow up with a question about why they were doing this. We&#39;re not looking for the old corporate &lt;a href=&quot;https://www.mindtools.com/pages/article/newTMC_5W.htm&quot;&gt;Five Whys&lt;/a&gt;, but you do want to dig for more information.&lt;/li&gt;
 &lt;li&gt;Close with an ask. The ask can be as simple as requesting another person the interviewee might know that you should talk with. It can be a request to send a demo to them. It can be anything. But closing with an ask creates commitment. This is important because the person you&#39;ve spoken with, should they agree to your ask, is now connected to you in a way that is more meaningful than interviewee/interviewer.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;!-- --&gt;
 &lt;p&gt;With your framework in place, you may think the next part is the hard part: finding people to talk with. Founders are busy. Marketers are busy. Your potential customers are busy. Right?&lt;/p&gt;
 &lt;p&gt;My experience has shown me that people are not nearly as busy as we fear they are. Sure, &lt;a href=&quot;https://poluterofminds.com/help-others-and-dont-be-a-time-cop/&quot;&gt;there are people who protect their time&lt;/a&gt; with almost evangelical fervor, but for the most part, people are social creatures who like to talk about themselves. When you&#39;re not selling something, you&#39;re immediately positioning yourself better than most other people these potential customers interact with. That puts people at ease and makes them more likely to say &amp;quot;yes&amp;quot; to your request.&lt;/p&gt;
 &lt;p&gt;So the answer to how do I get people to talk with me is: Ask them.&lt;/p&gt;
@@ -1218,7 +1246,7 @@ const sizeInGb = sizeInMb/1024;
     <content type="html">&lt;p&gt;I have experienced first-hand why open data is so important. Imagine a scenario where you&#39;ve paid for software. This can be something you&#39;ve done personally or something you&#39;ve done for the organization you work for. Now, you are ready to move on to another vendor, another piece of software. All of the data you&#39;ve stored is vital to your work (personal or professional). That data needs to be moved to the new software. This shouldn&#39;t be a problem because it&#39;s your data.&lt;/p&gt;
 &lt;p&gt;But is it really?&lt;/p&gt;
 &lt;p&gt;If you can&#39;t easily port the data from one service to another, it becomes less owned by you and more owned by the company providing the software. If there&#39;s no way at all to get the data out, it becomes wholly owned by the company managing the software you&#39;re using. This is called vendor lock-in. It can be intentional and strategic or it can be a poor product design. In any case, if you&#39;re in the latter situation, you&#39;re out of luck.&lt;/p&gt;
-&lt;p&gt;Unless...&lt;/p&gt;
+&lt;p&gt;Unless…&lt;/p&gt;
 &lt;p&gt;I found myself in a situation where the software vendor had complete control of the data. Data that did not belong to them and should have been easily accessible. There were no APIs to query to get the data. Everything was rendered server-side and returned to the client. So sifting through network requests didn&#39;t help. There was only one solution left to try: Puppeteer.&lt;/p&gt;
 &lt;p&gt;From the &lt;a href=&quot;https://github.com/puppeteer/puppeteer&quot;&gt;Puppeteer Github&lt;/a&gt; repository:&lt;/p&gt;
 &lt;p&gt;Puppeteer is a Node library which provides a high-level API to control Chrome or Chromium over the DevTools Protocol. Puppeteer runs headless by default, but can be configured to run full (non-headless) Chrome or Chromium.&lt;/p&gt;
@@ -1232,7 +1260,6 @@ const sizeInGb = sizeInMb/1024;
 &lt;li&gt;Download all files linked on each page&lt;/li&gt;
 &lt;li&gt;Screenshot each page (in case anything was missed in this scraping process, at least the screenshot would provide reference data)&lt;/li&gt;
 &lt;/ol&gt;
-&lt;!-- --&gt;
 &lt;p&gt;All of the above had to be applied to &lt;em&gt;7,000 pages&lt;/em&gt; of data. Wow.&lt;/p&gt;
 &lt;p&gt;If you&#39;ve ever used Puppeteer (or really, if you&#39;ve ever used the web), you know that network requests can take varying amounts of time to resolve. For an application that is rendered server-side, this means you have to wait for the network request to finish before you can do any scraping. So, each page could take anywhere between one and five seconds to load. Assuming the average load time was 2.5 seconds, we are already at 17,500 seconds of scraping time just for loading those pages.&lt;/p&gt;
 &lt;p&gt;But remember, I also had to grab the links to referenced pages within the original pages and grab the sub-data from those pages. We&#39;ll play it conservative and say there was just one additional page referenced on each original page. And if we apply the same 2.5 second average load time, that&#39;s an additional 17,500 seconds of scraping time.&lt;/p&gt;
@@ -1240,7 +1267,7 @@ const sizeInGb = sizeInMb/1024;
 &lt;p&gt;For just the first two steps above, we have a script that will need to run for &lt;em&gt;9.72 hours&lt;/em&gt;. What about for the next two steps in the four-step process?&lt;/p&gt;
 &lt;p&gt;Each original page had various files attached that needed to be downloaded. These files could be PDFs, email messages, images, documents, and more. The sizes of the files ranged. A conservative estimate here would put an average of four files on each of the original pages. Each file download probably averaged about a second.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;More math&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The file downloads would take upwards of 28,000 seconds, or an additional 7.77 hours. But we&#39;re not done, because we also have to take a screenshot and save that screenshot for each of the original pages. Puppeteer is pretty quick with this, so each screenshot, even using the synchronous code necessary to make sure everything executed properly, likely took about 1.5 seconds. That means...getting that calculator again...an additional 10,500 seconds, or 2.91 hours.&lt;/p&gt;
+&lt;p&gt;The file downloads would take upwards of 28,000 seconds, or an additional 7.77 hours. But we&#39;re not done, because we also have to take a screenshot and save that screenshot for each of the original pages. Puppeteer is pretty quick with this, so each screenshot, even using the synchronous code necessary to make sure everything executed properly, likely took about 1.5 seconds. That means…getting that calculator again…an additional 10,500 seconds, or 2.91 hours.&lt;/p&gt;
 &lt;p&gt;That all adds up to 20.33 hours, give or take. And of course, this is just an estimate after the fact, but it checks out. Because, you see, this isn&#39;t just a hypothetical. I ran this script, got the data I needed, and it took from the end of one day to the middle of the next day.&lt;/p&gt;
 &lt;p&gt;A script that spanned across two days just to get data I should have easily had access to? That&#39;s vendor lock-in for you. Thank goodness for Puppeteer, a little JavaScript, and a whole lot of patience.&lt;/p&gt;
 </content>
@@ -1276,16 +1303,25 @@ const sizeInGb = sizeInMb/1024;
     <updated>2020-03-13T19:31:35Z</updated>
     <id>https://polluterofminds.com/blog/what-if-the-cure-for-traffic-walkable-cities-and-pollution-was-remote-work/</id>
     <content type="html">&lt;p&gt;Today was the first day of my entire working life where I woke up without a boss to report to. I am working on &lt;a href=&quot;https://graphitedocs.com/&quot;&gt;Graphite&lt;/a&gt; full-time now and taking on some contracting gigs. As part of being your own boss, assuming you don’t have funding and haven’t opened an office for you and a bunch of employees, you work from home. Now, I’ve worked from home plenty of times while working for my last employer. We had an open work culture and weekly work-from-home days for the entire team. But waking up today knowing that every day would be work-from-home day felt different. It was different.&lt;/p&gt;
-&lt;p&gt;There are the obvious differences (not having to drive into work, not having to get gas, being able to start my work earlier and end my work earlier). But there are also the not-so-obvious differences. For example, instead of going into the office gym on my lunch break, I went for a run in my neighborhood. Spring has a way of confusing the mind and making you think everything is wonderful all the time, and that’s how it was as I ran through my neighborhood today. The temperature was perfect, the sky as blue as it gets. And it was quiet. Incredibly, beautifully quiet. We all know that after Spring come the doldrums of summer, so I readily admit that endorphins I felt were a mix of the run and the season. But as I ran through my neighborhood, it felt like the perfect experience. Get up, work, get some exercise in. What more could I want?&lt;/p&gt;
+&lt;p&gt;There are obvious differences (not having to drive into work, not having to get gas, being able to start my work earlier and end my work earlier). But there are also the not-so-obvious differences. For example, instead of going into the office gym on my lunch break, I went for a run in my neighborhood. Spring has a way of confusing the mind and making you think everything is wonderful all the time, and that’s how it was as I ran through my neighborhood today. The temperature was perfect, the sky as blue as it gets. And it was quiet. Incredibly, beautifully quiet. We all know that after Spring come the doldrums of summer, so I readily admit that endorphins I felt were a mix of the run and the season. But as I ran through my neighborhood, it felt like the perfect experience. Get up, work, get some exercise in. What more could I want?&lt;/p&gt;
 &lt;p&gt;Here comes the reality check. It WAS a perfect day, and it is amazing not having to deal with commutes into a city center and not have to deal with gas and other headaches. So, I started wondering to myself what it would take to never have to worry about those things. Here’s the list I came up with:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Grocery store within walking distance&lt;/li&gt;
-&lt;li&gt;Restaurants within walking distance&lt;/li&gt;
-&lt;li&gt;Schools within walking distance&lt;/li&gt;
-&lt;li&gt;Parks within walking distance&lt;/li&gt;
-&lt;li&gt;Coffee shops and other miscellaneous shops within walking distance&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Grocery store within walking distance&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Restaurants within walking distance&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Schools within walking distance&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Parks within walking distance&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Coffee shops and other miscellaneous shops within walking distance&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- --&gt;
 &lt;p&gt;As I look over that list, I think it looks a lot like the requirements to a walkability score on Zillow or some other home-buying platform. That’s because they are. Yet, the suburbs so often score incredibly low on walkability indeces (my neighborhood score a 0, yep, a freaking 0). Why is that? Why do we allow that?&lt;/p&gt;
 &lt;p&gt;We would never be OK with a metropolitan area scoring a 0 on walkability. Is that because it is often, quite literally, impossible to drive anywhere because of congestion? Is it because there are so many people working and living (but mostly working) in one area that if there weren’t stores and amenities within walking distance, people would never come outside? Or is it simply a matter of market demand? Shops pop up around crowded areas BECAUSE those areas are congested, perhaps?&lt;/p&gt;
 &lt;p&gt;What if it could be different?&lt;/p&gt;
@@ -1350,7 +1386,6 @@ const sizeInGb = sizeInMb/1024;
 &lt;li&gt;The entire back end of a Toyota Corolla&lt;/li&gt;
 &lt;li&gt;Christmas ornament explosives (we lived in the desert and were bored, leave us alone!)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- --&gt;
 &lt;p&gt;We built so much more than that, and I could dedicate an entire article to each of the things we built. We didn’t know any kids in elementary school or middle school or high school building the things we built.&lt;/p&gt;
 &lt;p&gt;In middle school, I met Andrew. He, Chris, and I became inseparable until after high school. Andrew wasn’t necessarily the maker Chris and I were. He was into cars by the time we reached high school, so he helped Chris and I in the garage. He tinkered with his own car when he got one. But really, Andrew was pragmatic, business-savvy, and financially responsible. Hell, he bought that first car himself for $3500. I got my piece of crap car for $500 and Chris got his for a couple hundred as well.&lt;/p&gt;
 &lt;p&gt;While Andrew wasn’t the maker Chris and I were, he was integral in helping me continue my maker ways after high school. Andrew first realized that the parts we were ordering for our cars could be had for so much cheaper if we were a business ordering wholesale. Without a second thought, we went to the state courthouse and filed for a business license. We were 18, and we officially owned our own business — JA1 Racing. Justin, Andrew, Number One, Racing. Stupid, stupid name. But it worked for the most part.&lt;/p&gt;

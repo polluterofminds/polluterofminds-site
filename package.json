@@ -23,6 +23,7 @@
     "@11ty/eleventy-plugin-rss": "^1.2.0"
   },
   "dependencies": {
-    "@11ty/eleventy-img": "^3.0.0"
+    "@11ty/eleventy-img": "^3.0.0",
+    "gray-matter": "^4.0.3"
   }
 }
