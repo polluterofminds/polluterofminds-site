@@ -1,7 +1,7 @@
 ---
 slug: "/most_product_management_isn't_product_management"
 title: "Most Product Management Isn't Product Management"
-date: "2023-06-21T16:37:10.114Z"
+date: "2023-06-29T16:37:10.114Z"
 excerpt: "null"
 status: "draft"
 tags: ["posts"]
