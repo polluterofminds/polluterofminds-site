@@ -8,10 +8,12 @@ layout: main
 <p>I am a product leader currently working with the future of media. I mentor startups, write about product development and entrepreneurship, and I previously founded three companies.</p>
 <p>You can find me everywhere online by my handle, <strong>{{site.author.twitter}}</strong>.</p>
 <h1>Latest Articles</h1>
+<div class="post-list-render">
 {% assign posts = collections.posts | reverse %}
 {% for post in posts limit:5 %}
-    <p>
+    <h2>
     <a href="{{ post.url }}">{{ post.data.title }}</a> <i>({{ post.date | date: "%b %d, %Y"}})</i>
-    </p>
+    </h2>
 {% endfor %}
+</div>
 <a class="more-link" href="/blog">More articles ></a>

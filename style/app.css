@@ -162,8 +162,8 @@ blockquote {
   } 
 
   p {
-    font-size: 3rem;
-    line-height: 4rem;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
   }
 
   body {
@@ -176,12 +176,12 @@ blockquote {
   }
 
   .blog p {
-    font-size: 3rem;
-    line-height: 4rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .header .links a {
-    font-size: 3rem;
+    font-size: 1.25rem;
   }
 
   .hero-profile-img {
@@ -206,15 +206,15 @@ blockquote {
   }
 
   h1 {
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
 
   h2 {
-    font-size: 3.5rem;
+    font-size: 2rem;
   }
 
   .post-date {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   .work-layout div h2 a {
