@@ -1,12 +1,11 @@
 ---
-slug: /macro_and_micro_management
-title: Macro and Micro Management
-date: '2023-07-19T15:32:39.128Z'
-excerpt: 'null'
-status: draft
-tags:
-  - posts
-layout: post
+slug: "/macro_and_micro_management"
+title: "Macro and Micro Management"
+date: "2023-07-19T15:32:39.128Z"
+excerpt: "null"
+status: "draft"
+tags: ["posts"]
+layout: "post"
 ---
 ![](https://images.unsplash.com/photo-1538688423619-a81d3f23454b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0MDkwMjh8MHwxfHNlYXJjaHw3fHxtYW5hZ2VtZW50fGVufDB8fHx8MTY4OTk0NzQxNnww&ixlib=rb-4.0.3&q=80&w=1080)
 
