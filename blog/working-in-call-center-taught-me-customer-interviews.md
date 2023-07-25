@@ -11,7 +11,7 @@ layout: "post"
 
 The voice on the other end of the line was heavy, gravely, and slow like someone who had just woken from a deep sleep. But it was the middle of the afternoon, and I knew he hadn't been sleeping. He probably wouldn't be sleeping for days. His wife's Toyota Rav4 had launched over the guardrail on an overpass and landed 100 feet below. She died at the scene.
 
-And it was my job to talk to this man-this widower-about fucking insurance.
+And it was my job to talk to this man—this widower—about fucking insurance.
 
 It was in conversations like that, the deepest and most painful moments of someone's life, that I realized the importance of listening. I'd always felt like I knew what listening meant. I'd always thought I did a good job of it. But when I was working in a call center in Tucson, AZ, investigating insurance claims, and speaking to people who had been injured or had family members injured or killed, I realized that there was another level of listening I hadn't quite learned.
 
