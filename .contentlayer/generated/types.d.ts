@@ -21,6 +21,7 @@ export type Authors = {
   twitter?: string | undefined
   linkedin?: string | undefined
   github?: string | undefined
+  warpcast?: string | undefined
   layout?: string | undefined
   /** MDX file body */
   body: MDX

@@ -4,6 +4,6 @@ import Main from './Main'
 
 export default async function Page() {
   const sortedPosts = sortPosts(allBlogs)
-  const posts = allCoreContent(sortedPosts)
+  const posts = allCoreContent(sortedPosts).filter(a => a.draft === false);
   return <Main posts={posts} />
 }
