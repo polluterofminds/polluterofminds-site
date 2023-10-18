@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "functions": {
+    "/about": {},
+    "/blog": {},
+    "/blog/page/[page]": {},
+    "/projects": {},
+    "/tags": {},
+    "/blog/[...slug]": {},
+    "/tags/[tag]": {}
+  }
+}

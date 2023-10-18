@@ -1,18 +1,18 @@
 ---
-slug: /running-a-filecoin-lotus-testnet-node-on-a-macbook-pro
 date: '2020-07-08T12:28:22.000Z'
 title: Running a Filecoin Lotus Testnet Node on a Macbook Pro
-tags: ["dev"]
+tags:
+  - dev
 summary: ''
 draft: false
 ---
-In my recent work, it became necessary to experiment with the [Filecoin](<https://filecoin.io/>) network. Filecoin is a decentralized protocol for incentivized storage of content. It is a compliment to [IPFS](<https://ipfs.io/>) and provides the incentive layer to those who store content and ensure its availability. At the end of the day, Filecoin, combined with IPFS, seeks to allow for 100% uptime websites and applications. It also seeks to preserve content and fight back against censorship.
+In my recent work, it became necessary to experiment with the [Filecoin](https://filecoin.io/) network. Filecoin is a decentralized protocol for incentivized storage of content. It is a compliment to [IPFS](<https://ipfs.io/>) and provides the incentive layer to those who store content and ensure its availability. At the end of the day, Filecoin, combined with IPFS, seeks to allow for 100% uptime websites and applications. It also seeks to preserve content and fight back against censorship.
 
 Filecoin has not yet released its mainnet, but it has a very active community participating in its testnet. My work requires application interface capabilities with the eventual Filecoin network, so I needed to get a testnet node up and running. This post is not going to be instructional on how to get a node running on your machine since Filecoin's docs are pretty good at that already. Instead, I want to focus on what's missing from the docs—system and hardware requirements.
 
-The only system requirements [listed](<https://docs.lotu.sh/en+hardware>) for installing, syncing, and running the Lotus client of the Filecoin testnet is a single requirement:
+The only system requirements [listed](https://docs.lotu.sh/en+hardware) for installing, syncing, and running the Lotus client of the Filecoin testnet is a single requirement:
 
-> Lotus can build and run on most [Linux](<https://ubuntu.com/>) and [MacOS](<https://www.apple.com/macos>) systems with at least 8GiB of RAM.
+> Lotus can build and run on most [Linux](https://ubuntu.com/) and [MacOS](https://www.apple.com/macos) systems with at least 8GiB of RAM.
 
 I read that and thought, "Cool, my Macbook has that much RAM and then some, but what about the storage requirements, what about the cooling requirements, what about what about what about..."
 
@@ -22,8 +22,6 @@ As a quick preface, here's a snapshot of my Macbook Pro (a 2015 model):
 - Processor 2.5 GHz Quad-Core Intel Core i7
 - Memory 16 GB 1600 MHz DDR3
 - Storage 500GB SSD
-
-<!-- -->
 
 After I cloned the Lotus client repository and built it from source, I was ready to run the client and sync the testnet chain. The syncing process is what would take the most time. Per the Lotus client documentation, it could take between a few hours and a couple of days. I can tell you now, it took my machine nearly 17 hours to sync the whole chain.
 
@@ -59,8 +57,6 @@ My recommendation for system requirements:
 - i7 Quad Core or better
 - At least 100GB of free space on your hard drive
 - Patience
-
-<!-- -->
 
 
   

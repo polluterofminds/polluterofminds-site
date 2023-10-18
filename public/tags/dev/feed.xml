@@ -1,0 +1,114 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>@polluterofminds | Justin Hunter</title>
+      <link>https://polluterofminds.com/blog</link>
+      <description>A blog by Justin Hunter</description>
+      <language>en-us</language>
+      <managingEditor>justin@polluterofminds.com (Justin Hunter)</managingEditor>
+      <webMaster>justin@polluterofminds.com (Justin Hunter)</webMaster>
+      <lastBuildDate>Sun, 05 Jul 2020 15:37:36 GMT</lastBuildDate>
+      <atom:link href="https://polluterofminds.com/tags/dev/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://polluterofminds.com/blog/how-i-became-a-developer-in-my-30s</guid>
+    <title>How I Became a Developer in My 30s</title>
+    <link>https://polluterofminds.com/blog/how-i-became-a-developer-in-my-30s</link>
+    
+    <pubDate>Sun, 05 Jul 2020 15:37:36 GMT</pubDate>
+    <author>justin@polluterofminds.com (Justin Hunter)</author>
+    <category>personal</category><category>dev</category>
+  </item>
+
+  <item>
+    <guid>https://polluterofminds.com/blog/how-to-spend-60-dollars-on-a-7-mb-file</guid>
+    <title>How to Spend $60 to Store a 7mb File - Or Why You Should Write Unit Tests</title>
+    <link>https://polluterofminds.com/blog/how-to-spend-60-dollars-on-a-7-mb-file</link>
+    
+    <pubDate>Wed, 18 Nov 2020 15:33:55 GMT</pubDate>
+    <author>justin@polluterofminds.com (Justin Hunter)</author>
+    <category>dev</category>
+  </item>
+
+  <item>
+    <guid>https://polluterofminds.com/blog/i-wrote-a-puppeteer-script-that-ran-for-two-days</guid>
+    <title>I Wrote a Puppeteer Script That Ran For Two Days</title>
+    <link>https://polluterofminds.com/blog/i-wrote-a-puppeteer-script-that-ran-for-two-days</link>
+    
+    <pubDate>Tue, 12 May 2020 19:36:45 GMT</pubDate>
+    <author>justin@polluterofminds.com (Justin Hunter)</author>
+    <category>dev</category>
+  </item>
+
+  <item>
+    <guid>https://polluterofminds.com/blog/its-ok-to-build-to-learn</guid>
+    <title>It&#39;s OK to Build to Learn</title>
+    <link>https://polluterofminds.com/blog/its-ok-to-build-to-learn</link>
+    
+    <pubDate>Mon, 21 Sep 2020 12:52:21 GMT</pubDate>
+    <author>justin@polluterofminds.com (Justin Hunter)</author>
+    <category>dev</category>
+  </item>
+
+  <item>
+    <guid>https://polluterofminds.com/blog/make-small-apps</guid>
+    <title>Make Small Apps</title>
+    <link>https://polluterofminds.com/blog/make-small-apps</link>
+    
+    <pubDate>Fri, 19 Mar 2021 17:31:58 GMT</pubDate>
+    <author>justin@polluterofminds.com (Justin Hunter)</author>
+    <category>dev</category><category>personal</category>
+  </item>
+
+  <item>
+    <guid>https://polluterofminds.com/blog/make-something-today</guid>
+    <title>Make Something Today</title>
+    <link>https://polluterofminds.com/blog/make-something-today</link>
+    
+    <pubDate>Fri, 13 Mar 2020 13:12:27 GMT</pubDate>
+    <author>justin@polluterofminds.com (Justin Hunter)</author>
+    <category>personal</category><category>dev</category>
+  </item>
+
+  <item>
+    <guid>https://polluterofminds.com/blog/running-a-filecoin-lotus-testnet-node-on-a-macbook-pro</guid>
+    <title>Running a Filecoin Lotus Testnet Node on a Macbook Pro</title>
+    <link>https://polluterofminds.com/blog/running-a-filecoin-lotus-testnet-node-on-a-macbook-pro</link>
+    
+    <pubDate>Wed, 08 Jul 2020 12:28:22 GMT</pubDate>
+    <author>justin@polluterofminds.com (Justin Hunter)</author>
+    <category>dev</category>
+  </item>
+
+  <item>
+    <guid>https://polluterofminds.com/blog/the-open-data-nostalgia-of-farcaster</guid>
+    <title>The Open Data Nostalgia of Farcaster</title>
+    <link>https://polluterofminds.com/blog/the-open-data-nostalgia-of-farcaster</link>
+    
+    <pubDate>Sat, 05 Nov 2022 14:07:53 GMT</pubDate>
+    <author>justin@polluterofminds.com (Justin Hunter)</author>
+    <category>personal</category><category>dev</category>
+  </item>
+
+  <item>
+    <guid>https://polluterofminds.com/blog/write-shitty-code</guid>
+    <title>Write Shitty Code</title>
+    <link>https://polluterofminds.com/blog/write-shitty-code</link>
+    
+    <pubDate>Sat, 01 May 2021 13:59:45 GMT</pubDate>
+    <author>justin@polluterofminds.com (Justin Hunter)</author>
+    <category>dev</category>
+  </item>
+
+  <item>
+    <guid>https://polluterofminds.com/blog/your-app-might-not-be-a-business</guid>
+    <title>Your App Might Not be a Business</title>
+    <link>https://polluterofminds.com/blog/your-app-might-not-be-a-business</link>
+    
+    <pubDate>Fri, 23 Apr 2021 13:53:18 GMT</pubDate>
+    <author>justin@polluterofminds.com (Justin Hunter)</author>
+    <category>startups</category><category>dev</category>
+  </item>
+
+    </channel>
+  </rss>

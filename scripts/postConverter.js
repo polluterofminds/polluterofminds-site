@@ -13,19 +13,16 @@ function convert(literal) {
   try {
     const dir = fs.readdirSync('./data/blog')
     let path
-    for (const path of dir.filter(d => d.includes(".mdxx"))) {
+    for (const path of dir) {
       try {
-        console.log(path);
-        fs.rmSync(`./data/blog/${path}`)
-        // pathSelected = path
-        // const file = fs.readFileSync(`./data/blog/${path}`)
-        // const { data, content } = matter(file)
-        // const tags = data.tags
-        // console.log({tags})
-        // data.tags = tags;       
-        // const stringified = matter.stringify(content, data)
-        // // console.log(stringified);
-        // fs.writeFileSync(`./data/blog/${path.replace(".md", ".mdx")}`, stringified);
+        pathSelected = path
+        const file = fs.readFileSync(`./data/blog/${path}`)
+        const { data, content } = matter(file)
+        delete data.date_updated;
+      
+        const stringified = matter.stringify(content, data)
+        // console.log(stringified);
+        fs.writeFileSync(`./data/blog/${path}`, stringified);
       } catch (error) {
         // throw error;
         console.log(dataForError)

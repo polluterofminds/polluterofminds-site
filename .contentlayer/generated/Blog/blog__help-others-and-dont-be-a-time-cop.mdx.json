@@ -1,0 +1,43 @@
+{
+  "title": "Help Others and Don't Be a Time Cop",
+  "date": "2020-07-30T12:06:35.000Z",
+  "tags": [
+    "startups",
+    "personal"
+  ],
+  "draft": false,
+  "summary": "",
+  "body": {
+    "raw": "[via Gfycat](<https://gfycat.com/uniquemessyasianconstablebutterfly-ultimate-fighting-championship-organization>)\n\nI'll be honest, the title of this article was mostly an excuse to find a Timecop gif. But the content of this article actually matters, so stop trying to find where you can stream Timecop and pay attention.\n\nI tweeted about this phenomenon, but I wanted to expand my thoughts on the topic. If you don't click the link to my [tweetstorm](<https://twitter.com/polluterofminds/status/1288072710141214720>), here's the tl;dr:\n\nIn hustle culture/Silicon Valley culture/startup culture/bro culture, you will find a lot of advice around protecting your time. While there is something to be said for respecting your time and other people's time, doing so does not mean you don't *make* time for others.\n\nTake a look back on your career. Be honest with yourself. How many people helped you along the way. If you're not hiding behind a rewritten history, you'll surely find many people who were willing to give you some of their time to help you along the way. The very least you can do is pass that along. And here's the kicker:\n\n**You might actually benefit from making time for others. **\n\nGetting something out of letting another person pick your brain should never be the goal, but it can absolutely be an end result. When I was running Graphite, I was lucky enough to have a good launch of my product. I started getting bombarded by meeting requests and emails. People around me told me that I would have to learn to ignore those things. And sure, some of it was spam from event marketers and sales people, but a lot of it came from bootstrappers, indie builders, new developers, and people like me who were going through the same things I had gone through. I made the conscious decision to try not to turn down any of those meeting requests.\n\nThe results of that decision were friendships, business partnerships, speaking engagements, customers, interviews, and so much more. But that was never the goal. I felt it was worth my time to help other people, and you should feel that way too. Let's face it, you're not all that popular. You're not Elon Musk or Mark Zuckerberg. You're you, and any success you have can surely be partially attributed to the help you got along the way. So help others.\n\nDon't be a time cop. Be smart about when you \"protect your time\" and when you help others. There is a balance, but to default into rejecting all meetings and ignoring emails is the wrong approach. I said this to a friend on Twitter and I will leave you all with the same sentiment:\n\nPeople are the key to business and meeting/making time for them matters. If you aren't willing to put in the time to help other people, what's the point in running a business to launching a product?\n\n\n  \n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var d=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var y=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),f=(t,e)=>{for(var n in e)i(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,r)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!g.call(t,a)&&a!==n&&i(t,a,{get:()=>e[a],enumerable:!(r=c(e,a))||r.enumerable});return t};var w=(t,e,n)=>(n=t!=null?m(d(t)):{},s(e||!t||!t.__esModule?i(n,\"default\",{value:t,enumerable:!0}):n,t)),b=t=>s(i({},\"__esModule\",{value:!0}),t);var l=y((j,h)=>{h.exports=_jsx_runtime});var x={};f(x,{default:()=>v,frontmatter:()=>k});var o=w(l()),k={date:\"2020-07-30T12:06:35.000Z\",title:\"Help Others and Don't Be a Time Cop\",tags:[\"startups\",\"personal\"],summary:\"\",draft:!1};function u(t){let e=Object.assign({p:\"p\",a:\"a\",em:\"em\"},t.components);return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(e.p,{children:(0,o.jsx)(e.a,{href:\"https://gfycat.com/uniquemessyasianconstablebutterfly-ultimate-fighting-championship-organization\",children:\"via Gfycat\"})}),(0,o.jsx)(e.p,{children:\"I'll be honest, the title of this article was mostly an excuse to find a Timecop gif. But the content of this article actually matters, so stop trying to find where you can stream Timecop and pay attention.\"}),(0,o.jsxs)(e.p,{children:[\"I tweeted about this phenomenon, but I wanted to expand my thoughts on the topic. If you don't click the link to my \",(0,o.jsx)(e.a,{href:\"https://twitter.com/polluterofminds/status/1288072710141214720\",children:\"tweetstorm\"}),\", here's the tl;dr:\"]}),(0,o.jsxs)(e.p,{children:[\"In hustle culture/Silicon Valley culture/startup culture/bro culture, you will find a lot of advice around protecting your time. While there is something to be said for respecting your time and other people's time, doing so does not mean you don't \",(0,o.jsx)(e.em,{children:\"make\"}),\" time for others.\"]}),(0,o.jsx)(e.p,{children:\"Take a look back on your career. Be honest with yourself. How many people helped you along the way. If you're not hiding behind a rewritten history, you'll surely find many people who were willing to give you some of their time to help you along the way. The very least you can do is pass that along. And here's the kicker:\"}),(0,o.jsx)(e.p,{children:\"**You might actually benefit from making time for others. **\"}),(0,o.jsx)(e.p,{children:\"Getting something out of letting another person pick your brain should never be the goal, but it can absolutely be an end result. When I was running Graphite, I was lucky enough to have a good launch of my product. I started getting bombarded by meeting requests and emails. People around me told me that I would have to learn to ignore those things. And sure, some of it was spam from event marketers and sales people, but a lot of it came from bootstrappers, indie builders, new developers, and people like me who were going through the same things I had gone through. I made the conscious decision to try not to turn down any of those meeting requests.\"}),(0,o.jsx)(e.p,{children:\"The results of that decision were friendships, business partnerships, speaking engagements, customers, interviews, and so much more. But that was never the goal. I felt it was worth my time to help other people, and you should feel that way too. Let's face it, you're not all that popular. You're not Elon Musk or Mark Zuckerberg. You're you, and any success you have can surely be partially attributed to the help you got along the way. So help others.\"}),(0,o.jsx)(e.p,{children:`Don't be a time cop. Be smart about when you \"protect your time\" and when you help others. There is a balance, but to default into rejecting all meetings and ignoring emails is the wrong approach. I said this to a friend on Twitter and I will leave you all with the same sentiment:`}),(0,o.jsx)(e.p,{children:\"People are the key to business and meeting/making time for them matters. If you aren't willing to put in the time to help other people, what's the point in running a business to launching a product?\"})]})}function I(t={}){let{wrapper:e}=t.components||{};return e?(0,o.jsx)(e,Object.assign({},t,{children:(0,o.jsx)(u,t)})):u(t)}var v=I;return b(x);})();\n;return Component;"
+  },
+  "_id": "blog/help-others-and-dont-be-a-time-cop.mdx",
+  "_raw": {
+    "sourceFilePath": "blog/help-others-and-dont-be-a-time-cop.mdx",
+    "sourceFileName": "help-others-and-dont-be-a-time-cop.mdx",
+    "sourceFileDir": "blog",
+    "contentType": "mdx",
+    "flattenedPath": "blog/help-others-and-dont-be-a-time-cop"
+  },
+  "type": "Blog",
+  "readingTime": {
+    "text": "3 min read",
+    "minutes": 2.36,
+    "time": 141600,
+    "words": 472
+  },
+  "slug": "help-others-and-dont-be-a-time-cop",
+  "path": "blog/help-others-and-dont-be-a-time-cop",
+  "filePath": "blog/help-others-and-dont-be-a-time-cop.mdx",
+  "toc": [],
+  "structuredData": {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Help Others and Don't Be a Time Cop",
+    "datePublished": "2020-07-30T12:06:35.000Z",
+    "dateModified": "2020-07-30T12:06:35.000Z",
+    "description": "",
+    "image": "/static/images/twitter-card.png",
+    "url": "https://polluterofminds.com/blog/help-others-and-dont-be-a-time-cop"
+  }
+}

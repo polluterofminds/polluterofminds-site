@@ -1,0 +1,54 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>@polluterofminds | Justin Hunter</title>
+      <link>https://polluterofminds.com/blog</link>
+      <description>A blog by Justin Hunter</description>
+      <language>en-us</language>
+      <managingEditor>justin@polluterofminds.com (Justin Hunter)</managingEditor>
+      <webMaster>justin@polluterofminds.com (Justin Hunter)</webMaster>
+      <lastBuildDate>Tue, 01 Jun 2021 01:43:47 GMT</lastBuildDate>
+      <atom:link href="https://polluterofminds.com/tags/writing/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://polluterofminds.com/blog/audience-building-has-broken-blogging</guid>
+    <title>Audience Building Has Broken Blogging</title>
+    <link>https://polluterofminds.com/blog/audience-building-has-broken-blogging</link>
+    
+    <pubDate>Tue, 01 Jun 2021 01:43:47 GMT</pubDate>
+    <author>justin@polluterofminds.com (Justin Hunter)</author>
+    <category>product</category><category>writing</category>
+  </item>
+
+  <item>
+    <guid>https://polluterofminds.com/blog/what-is-a-writing-sprint</guid>
+    <title>What is a Writing Sprint?</title>
+    <link>https://polluterofminds.com/blog/what-is-a-writing-sprint</link>
+    
+    <pubDate>Wed, 07 Jul 2021 11:59:02 GMT</pubDate>
+    <author>justin@polluterofminds.com (Justin Hunter)</author>
+    <category>writing</category>
+  </item>
+
+  <item>
+    <guid>https://polluterofminds.com/blog/why-im-participating-in-nanowrimo-for-the-first-time</guid>
+    <title>Why I&#39;m Participating in NaNoWriMo For The First Time</title>
+    <link>https://polluterofminds.com/blog/why-im-participating-in-nanowrimo-for-the-first-time</link>
+    
+    <pubDate>Mon, 31 Oct 2022 14:02:33 GMT</pubDate>
+    <author>justin@polluterofminds.com (Justin Hunter)</author>
+    <category>writing</category>
+  </item>
+
+  <item>
+    <guid>https://polluterofminds.com/blog/write-because-you-like-to-write</guid>
+    <title>Write Because You Like to Write</title>
+    <link>https://polluterofminds.com/blog/write-because-you-like-to-write</link>
+    
+    <pubDate>Fri, 13 Mar 2020 13:18:14 GMT</pubDate>
+    <author>justin@polluterofminds.com (Justin Hunter)</author>
+    <category>writing</category>
+  </item>
+
+    </channel>
+  </rss>
