@@ -1,4 +1,0 @@
-Sitemap: https://polluterofminds.com/sitemap.xml
-
-User-agent: *
-Disallow:
