@@ -62,6 +62,18 @@ export function Mastodon(svgProps: SVGProps<SVGSVGElement>) {
 
 export function Warpcast(svgProps: SVGProps<SVGSVGElement>) {
   return (
-    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_1_2)"><path d="M947.747 1259.61H311.861C139.901 1259.61 0 1119.72 0 947.752V311.871C0 139.907 139.901 0.00541362 311.861 0.00541362H947.747C1119.71 0.00541362 1259.61 139.907 1259.61 311.871V947.752C1259.61 1119.72 1119.71 1259.61 947.747 1259.61Z" fill="#472A91"></path><path d="M826.513 398.633L764.404 631.889L702.093 398.633H558.697L495.789 633.607L433.087 398.633H269.764L421.528 914.36H562.431L629.807 674.876L697.181 914.36H838.388L989.819 398.633H826.513Z" fill="white"></path></g><defs><clipPath id="clip0_1_2"><rect width="1259.61" height="1259.61" fill="white"></rect></clipPath></defs></svg>
+    <svg {...svgProps} width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M23.2 22.2857C23.642 22.2857 24 22.6693 24 23.1429V24H16V23.1429C16 22.6693 16.358 22.2857 16.8 22.2857H23.2Z" fill="currentColor" />
+      <path d="M23.2 22.2857V21.4286C23.2 20.955 22.842 20.5714 22.4 20.5714H17.6C17.158 20.5714 16.8 20.955 16.8 21.4286L16.8 22.2857H23.2Z" fill="currentColor" />
+      <path d="M20 0H4V3.42857H20V0Z" fill="currentColor" />
+      <path d="M20 2.57143H4V3.42857H20V2.57143Z" fill="currentColor" />
+      <path d="M23.2 6.85714H0.8L0 3.42857H24L23.2 6.85714Z" fill="currentColor" />
+      <path d="M22.4 6.85714H17.6L17.6 20.5714H22.4V6.85714Z" fill="currentColor" />
+      <path d="M7.2 22.2857C7.642 22.2857 8 22.6693 8 23.1429V24H0V23.1429C0 22.6693 0.358 22.2857 0.8 22.2857H7.2Z" fill="currentColor" />
+      <path d="M7.2 22.2857V21.4286C7.2 20.955 6.842 20.5714 6.4 20.5714H1.6C1.158 20.5714 0.800001 20.955 0.800001 21.4286L0.8 22.2857H7.2Z" fill="currentColor" />
+      <path d="M6.4 6.85714H1.6L1.6 20.5714H6.4L6.4 6.85714Z" fill="currentColor" />
+      <path d="M6.4 13.6457C6.4 10.332 8.9072 7.64572 12 7.64572C15.0928 7.64572 17.6 10.332 17.6 13.6457V5.07429H6.4V13.6457Z" fill="currentColor" />
+    </svg>
+
   )
 }
