@@ -116,7 +116,6 @@ export default async function Page({ params }: { params: { slug: string[] } }) {
   })
 
   const Layout = layouts[post.layout || defaultLayout]
-
   return (
     <>
       <Head>
@@ -134,6 +133,15 @@ export default async function Page({ params }: { params: { slug: string[] } }) {
         <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
         <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta property="og:title" content={mainContent.title} />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://pinata-tutorials.mypinata.cloud/ipfs/QmVJhZCEabf3BG35yzD482rNgstwsHq6QnTStdGimsUAdy" />
+        <meta property="og:description" content="A blog post by @polluterofminds" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dpolluterofminds" />
+        <meta name="twitter:title" content={mainContent.title} />
+        <meta name="twitter:description" content="A blog post by @polluterofminds" />
+        <meta name="twitter:image" content="https://pinata-tutorials.mypinata.cloud/ipfs/QmVJhZCEabf3BG35yzD482rNgstwsHq6QnTStdGimsUAdy" />
         <script async defer src="https://sa.polluterofminds.com/latest.js"></script>
         <noscript><img src="https://sa.polluterofminds.com/noscript.gif" alt="" referrerPolicy="no-referrer-when-downgrade" /></noscript>
       </Head>
