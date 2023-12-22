@@ -45,6 +45,7 @@ type Post struct {
 	Date          time.Time
 	Description   string
 	Tags          []string
+	Slug          string
 	AuthorName    string
 	Avatar        string
 	Twitter       string

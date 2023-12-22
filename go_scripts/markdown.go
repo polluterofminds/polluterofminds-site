@@ -56,6 +56,7 @@ func copyMarkdownFile(src, dst string) error {
 			Frontmatter.Date,
 			Frontmatter.Summary,
 			Frontmatter.Tags,
+			slug,
 			"Justin Hunter",
 			"/assets/me.jpg",
 			"https://twitter.com/polluterofminds",
