@@ -14,6 +14,7 @@ import (
 var footer = "footer.tmpl"
 var head = "head.tmpl"
 var nav = "nav.tmpl"
+var search = "search.tmpl"
 
 type Tag struct {
 	Name  string
@@ -67,6 +68,9 @@ func build() {
 
 	//	Build tag pages
 	buildTags()
+
+	//	Build search page
+	buildSearchPage()
 
 	var tmplFile = "index.tmpl"
 	tmpl, err := template.New(tmplFile).ParseFiles(footer, tmplFile, head, nav)
