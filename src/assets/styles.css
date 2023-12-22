@@ -113,8 +113,10 @@
  */
 #menu
 {
+  display: none;
   position: absolute;
   width: 300px;
+  height: 500px;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
@@ -142,4 +144,5 @@
 #menuToggle input:checked ~ ul
 {
   transform: translate(-70%, 0);
+  display: block;
 }

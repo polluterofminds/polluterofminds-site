@@ -1621,6 +1621,10 @@ select {
   overflow-y: auto;
 }
 
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
 .whitespace-nowrap {
   white-space: nowrap;
 }
@@ -2128,8 +2132,10 @@ select {
 
 #menu
 {
+  display: none;
   position: absolute;
   width: 300px;
+  height: 500px;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
@@ -2155,6 +2161,7 @@ select {
 #menuToggle input:checked ~ ul
 {
   transform: translate(-70%, 0);
+  display: block;
 }
 
 @media (prefers-color-scheme: dark) {
