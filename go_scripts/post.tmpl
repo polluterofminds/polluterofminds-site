@@ -1,0 +1,131 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>{{ .Title }}| @polluterofminds</title>
+	<link rel="stylesheet" href="/assets/styles.css">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta name="description" content="A blog by Justin Hunter">
+  <meta property="og:title" content="{{ .Title }}" />
+  <meta property="og:site_name" content="@polluterofminds" />
+  <meta property="og:description" content="A blog by Justin Hunter" />
+  <meta property="og:image" content="https://pinata-tutorials.mypinata.cloud/ipfs/QmVJhZCEabf3BG35yzD482rNgstwsHq6QnTStdGimsUAdy" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@polluterofminds" />
+  <meta name="twitter:title" content="{{ .Title }}" />
+  <meta name="twitter:description" content="A blog by Justin Hunter" />
+  <meta name="twitter:image" content="https://pinata-tutorials.mypinata.cloud/ipfs/QmVJhZCEabf3BG35yzD482rNgstwsHq6QnTStdGimsUAdy" />
+  <link rel="icon" type="image/png" sizes="16x16" href="https://pinata-tutorials.mypinata.cloud/ipfs/Qmc6hsZzaAkWkHdvR13nj1a9esJ6CdwrXM61xk17nVDkvf">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://pinata-tutorials.mypinata.cloud/ipfs/QmWNGerHrw8o8hH5PJokYjHdEZbEJ2UAiYBA2mMTkUpsuc">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-950 text-white font-sans w-4/5 md:w-3/4 m-auto">
+  <header class="py-6 flex justify-between w-full">
+    <div>
+      <a href="/"><h3 class="text-xl">@polluterofminds</h3></a>
+    </div>
+    <div class="md:flex md:inline hidden">
+      <a class="px-2" href="/blog">Blog</a>
+      <a class="px-2" href="/tags">Tags</a>
+      <a class="px-2" href="/projects">Projects</a>
+      <a class="px-2" href="/about">About</a>
+    </div>
+  </header>
+  <article>
+        <div class="xl:divide-y xl:divide-gray-200 xl:dark:divide-gray-700">
+          <header class="pt-6 xl:pb-6">
+            <div class="space-y-1 text-center">
+              <dl class="space-y-10">
+                <div>
+                  <dt class="sr-only">Published on</dt>
+                  <dd class="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
+                    <time dateTime={{ .Date }}>
+                      {{ .Date.Format "Jan 02, 2006" }}
+                    </time>
+                  </dd>
+                </div>
+              </dl>
+              <div>
+                <h3 class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">{{ .Title }}</h3>
+              </div>
+            </div>
+          </header>
+          <div class="grid-rows-[auto_1fr] divide-y divide-gray-200 pb-8 dark:divide-gray-700 xl:grid xl:grid-cols-4 xl:gap-x-6 xl:divide-y-0">
+            <dl class="pb-10 pt-6 xl:border-b xl:border-gray-200 xl:pt-11 xl:dark:border-gray-700">
+              <dt class="sr-only">Authors</dt>
+              <dd>
+                <ul class="flex flex-wrap justify-center gap-4 sm:space-x-12 xl:block xl:space-x-0 xl:space-y-8">
+                  
+                    <li class="flex items-center space-x-2" key={{ .AuthorName }}>                      
+                        <img
+                          src={{ .Avatar }}           
+                          alt="avatar"
+                          class="h-10 w-10 rounded-full"
+                        />
+                      
+                      <dl class="whitespace-nowrap text-sm font-medium leading-5">
+                        <dt class="sr-only">Name</dt>
+                        <dd class="text-gray-900 dark:text-gray-100">{{ .AuthorName }}</dd>
+                        <dt class="sr-only">Twitter</dt>
+                        <dd>
+                          <a
+                            href={{ .Twitter }}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                            >
+                            {{ .TwitterHandle }}
+                          </a>
+                        </dd>
+                        
+                      </dl>
+                    </li>
+                </ul>
+              </dd>
+            </dl>                        
+            <div class="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
+              <div class="prose max-w-none pb-8 pt-10 dark:prose-invert">{{ .Content }}</div>
+              <div class="pb-6 pt-6 text-sm text-gray-700 dark:text-gray-300">
+                <a href="" rel="nofollow">
+                  Discuss on Twitter
+                </a>      
+              </div>
+            </div>
+            <footer>
+              <div class="divide-gray-200 text-sm font-medium leading-5 dark:divide-gray-700 xl:col-start-1 xl:row-start-2 xl:divide-y">
+     
+                <div class="py-4 xl:py-8">
+                    <h2 class="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
+                      Tags
+                    </h2>
+                    <div class="flex flex-wrap">
+                      {{ range .Tags }}
+                        <a class="mr-3 text-sm font-medium uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" href="/tags/{{ . }}">
+                          {{ . }}
+                        </a>
+                      {{ end }}
+                    </div>
+                  </div>
+              </div>
+              <div class="pt-4 xl:pt-8">
+                <a
+                  href="/"
+                  class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                  aria-label="Back to the blog"
+                >
+                  &larr; Back to the blog
+                </a>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </article>
+    </div>
+    {{template "footer" .}}
+</body>
+</html>

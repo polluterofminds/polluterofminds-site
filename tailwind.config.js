@@ -1,18 +1,8 @@
-// @ts-check
-const { fontFamily } = require('tailwindcss/defaultTheme')
 const colors = require('tailwindcss/colors')
-
-/** @type {import("tailwindcss/types").Config } */
+const defaultTheme = require('tailwindcss/defaultTheme')
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './node_modules/pliny/**/*.js',
-    './app/**/*.{js,ts,jsx,tsx}',
-    './pages/**/*.{js,ts,tsx}',
-    './components/**/*.{js,ts,tsx}',
-    './layouts/**/*.{js,ts,tsx}',
-    './data/**/*.mdx',
-  ],
-  darkMode: 'class',
+  content: ["./src/**/*.{html,js}", "./dist/**/*.{html,js}"],
   theme: {
     extend: {
       lineHeight: {
@@ -22,7 +12,7 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
-        sans: ['var(--font-space-grotesk)', ...fontFamily.sans],
+        sans: ['"Space Grotesk"', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         primary: colors.yellow,
@@ -69,3 +59,4 @@ module.exports = {
   },
   plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
 }
+
