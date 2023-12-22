@@ -1,5 +1,1 @@
-node_modules/
-.cache/
-!/style/*
-!/_site/style/*
-.next
+!/dist/
