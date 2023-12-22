@@ -65,7 +65,7 @@ func copyMarkdownFile(src, dst string) error {
 		}
 
 		var tmplFile = "post.tmpl"
-		tmpl, err := template.New(tmplFile).ParseFiles(footer, tmplFile)
+		tmpl, err := template.New(tmplFile).ParseFiles(footer, tmplFile, nav)
 		if err != nil {
 			panic(err)
 		}

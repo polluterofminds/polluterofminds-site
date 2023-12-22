@@ -26,19 +26,43 @@
 </head>
 
   <body class="m-auto w-4/5 bg-gray-950 font-sans text-white md:w-3/4">
-    <header class="flex w-full justify-between py-6">
-      <div>
-        <a href="/">
-          <h3 class="text-xl">@polluterofminds</h3>
-        </a>
+    
+  <header class="py-6 flex justify-between w-full items-center">
+    <div>
+      <a href="/">
+        <h3 class="text-xl">@polluterofminds</h3>
+      </a>
+    </div>
+    <div class="md:flex md:inline hidden">
+      <a class="px-2" href="/blog">Blog</a>
+      <a class="px-2" href="/tags">Tags</a>
+      <a class="px-2" href="/projects">Projects</a>
+      <a class="px-2" href="/about">About</a>
+    </div>
+    <nav class="md:hidden" aria-label="nav button" role="navigation">
+      <div id="menuToggle">
+        <input type="checkbox"/>
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <a href="/blog">
+            <li>Blog</li>
+          </a>
+          <a href="/tags">
+            <li>Tags</li>
+          </a>
+          <a href="/projects">
+            <li>Projects</li>
+          </a>
+          <a href="/about">
+            <li>About</li>
+          </a>
+        </ul>
       </div>
-      <div class="hidden md:inline md:flex">
-        <a class="px-2" href="/blog">Blog</a>
-        <a class="px-2" href="/tags">Tags</a>
-        <a class="px-2" href="/projects">Projects</a>
-        <a class="px-2" href="/about">About</a>
-      </div>
-    </header>
+    </nav>
+  </header>
+
     <div class="divide-y divide-gray-200 dark:divide-gray-700">
       <div class="space-y-2 pb-8 pt-6 md:space-y-5">
         <h1

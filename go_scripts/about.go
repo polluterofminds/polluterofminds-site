@@ -74,7 +74,7 @@ func buildAbout() {
 	fmt.Println(about_page)
 
 	var tmplFile = "about.tmpl"
-	tmpl, err := template.New(tmplFile).ParseFiles(footer, tmplFile, head)
+	tmpl, err := template.New(tmplFile).ParseFiles(footer, tmplFile, head, nav)
 	if err != nil {
 		panic(err)
 	}

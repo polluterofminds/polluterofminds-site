@@ -7,8 +7,9 @@ import (
 )
 
 type TagPostIndex struct {
-	AllTags []Tag
-	Posts   []PostIndex
+	AllTags  []Tag
+	Posts    []PostIndex
+	TagSlice Tag
 }
 
 var tags []Tag
@@ -31,7 +32,7 @@ func buildTags() {
 	}
 
 	var tagTmpFile = "tags.tmpl"
-	tagtmpl, err := template.New(tagTmpFile).ParseFiles(footer, tagTmpFile, head)
+	tagtmpl, err := template.New(tagTmpFile).ParseFiles(footer, tagTmpFile, head, nav)
 	if err != nil {
 		panic(err)
 	}
@@ -70,9 +71,10 @@ func buildTagPages() {
 		var tagIndex TagPostIndex = TagPostIndex{
 			tags,
 			postsToInclude,
+			tagSlice,
 		}
 		var tagTmpFile = "tag_page.tmpl"
-		tagtmpl, err := template.New(tagTmpFile).ParseFiles(footer, tagTmpFile, head)
+		tagtmpl, err := template.New(tagTmpFile).ParseFiles(footer, tagTmpFile, head, nav)
 		if err != nil {
 			panic(err)
 		}
@@ -113,9 +115,10 @@ func buildPostsPage() {
 	var tagIndex TagPostIndex = TagPostIndex{
 		tags,
 		posts,
+		Tag{"All Posts", 0},
 	}
 	var tagTmpFile = "tag_page.tmpl"
-	tagtmpl, err := template.New(tagTmpFile).ParseFiles(footer, tagTmpFile, head)
+	tagtmpl, err := template.New(tagTmpFile).ParseFiles(footer, tagTmpFile, head, nav)
 	if err != nil {
 		panic(err)
 	}

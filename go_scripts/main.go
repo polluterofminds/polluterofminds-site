@@ -13,6 +13,7 @@ import (
 
 var footer = "footer.tmpl"
 var head = "head.tmpl"
+var nav = "nav.tmpl"
 
 type Tag struct {
 	Name  string
@@ -68,7 +69,7 @@ func build() {
 	buildTags()
 
 	var tmplFile = "index.tmpl"
-	tmpl, err := template.New(tmplFile).ParseFiles(footer, tmplFile, head)
+	tmpl, err := template.New(tmplFile).ParseFiles(footer, tmplFile, head, nav)
 	if err != nil {
 		panic(err)
 	}

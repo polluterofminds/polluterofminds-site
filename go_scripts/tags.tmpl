@@ -2,19 +2,7 @@
 <html>
   {{template "head" .}}
   <body class="m-auto w-4/5 bg-gray-950 font-sans text-white md:w-3/4">
-    <header class="flex w-full justify-between py-6">
-      <div>
-        <a href="/">
-          <h3 class="text-xl">@polluterofminds</h3>
-        </a>
-      </div>
-      <div class="hidden md:inline md:flex">
-        <a class="px-2" href="/blog">Blog</a>
-        <a class="px-2" href="/tags">Tags</a>
-        <a class="px-2" href="/projects">Projects</a>
-        <a class="px-2" href="/about">About</a>
-      </div>
-    </header>
+    {{ template "nav" .}}
     <div class="mt-32 flex w-3/4 md:w-[70%] m-auto items-center">
       <h1 class="text-6xl font-semibold mr-2">Tags</h1>
       <h1 class="text-6xl font-thin mr-2">|</h1>

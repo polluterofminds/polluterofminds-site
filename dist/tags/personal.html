@@ -1,55 +1,73 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>@polluterofminds | Justin Hunter</title>
-    <link rel="stylesheet" href="/assets/styles.css">
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta name="description" content="A blog by Justin Hunter">
-    <meta property="og:title" content="@polluterofminds | Justin Hunter"/>
-    <meta property="og:site_name" content="@polluterofminds"/>
-    <meta property="og:description" content="A blog by Justin Hunter"/>
-    <meta property="og:image" content="https://pinata-tutorials.mypinata.cloud/ipfs/QmVJhZCEabf3BG35yzD482rNgstwsHq6QnTStdGimsUAdy"/>
-    <meta property="og:image:width" content="1200"/>
-    <meta property="og:image:height" content="630"/>
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:site" content="@polluterofminds"/>
-    <meta name="twitter:title" content="@polluterofminds | Justin Hunter"/>
-    <meta name="twitter:description" content="A blog by Justin Hunter"/>
-    <meta name="twitter:image" content="https://pinata-tutorials.mypinata.cloud/ipfs/QmVJhZCEabf3BG35yzD482rNgstwsHq6QnTStdGimsUAdy"/>
-    <link rel="icon" type="image/png" sizes="16x16" href="https://pinata-tutorials.mypinata.cloud/ipfs/Qmc6hsZzaAkWkHdvR13nj1a9esJ6CdwrXM61xk17nVDkvf">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://pinata-tutorials.mypinata.cloud/ipfs/QmWNGerHrw8o8hH5PJokYjHdEZbEJ2UAiYBA2mMTkUpsuc">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script>
-      window.addEventListener('DOMContentLoaded', () => {
-        const link = window.location.href.split("/tags/")[1].split(".html")[0]
-        document
-          .querySelector(`#${link}`)
-          .className = 'py-2 px-3 uppercase text-sm font-medium text-primary-500 hover:text-primary-600 dark:hover:text-primary-400'
-      });
-    </script>
-  </head>
+  
+<head>
+	<meta charset="utf-8">
+	<title>@polluterofminds | Justin Hunter</title>
+	<link rel="stylesheet" href="/assets/styles.css">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta name="description" content="A blog by Justin Hunter">
+  <meta property="og:title" content="@polluterofminds | Justin Hunter" />
+  <meta property="og:site_name" content="@polluterofminds" />
+  <meta property="og:description" content="A blog by Justin Hunter" />
+  <meta property="og:image" content="https://pinata-tutorials.mypinata.cloud/ipfs/QmVJhZCEabf3BG35yzD482rNgstwsHq6QnTStdGimsUAdy" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@polluterofminds" />
+  <meta name="twitter:title" content="@polluterofminds | Justin Hunter" />
+  <meta name="twitter:description" content="A blog by Justin Hunter" />
+  <meta name="twitter:image" content="https://pinata-tutorials.mypinata.cloud/ipfs/QmVJhZCEabf3BG35yzD482rNgstwsHq6QnTStdGimsUAdy" />
+  <link rel="icon" type="image/png" sizes="16x16" href="https://pinata-tutorials.mypinata.cloud/ipfs/Qmc6hsZzaAkWkHdvR13nj1a9esJ6CdwrXM61xk17nVDkvf">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://pinata-tutorials.mypinata.cloud/ipfs/QmWNGerHrw8o8hH5PJokYjHdEZbEJ2UAiYBA2mMTkUpsuc">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
   <body class="bg-gray-950 text-white font-sans w-4/5 sm:w-3/4 md:w-3/5 m-auto">
-    <header class="py-6 flex justify-between w-full">
-      <div>
-        <a href="/">
-          <h3 class="text-xl">@polluterofminds</h3>
-        </a>
+    
+  <header class="py-6 flex justify-between w-full items-center">
+    <div>
+      <a href="/">
+        <h3 class="text-xl">@polluterofminds</h3>
+      </a>
+    </div>
+    <div class="md:flex md:inline hidden">
+      <a class="px-2" href="/blog">Blog</a>
+      <a class="px-2" href="/tags">Tags</a>
+      <a class="px-2" href="/projects">Projects</a>
+      <a class="px-2" href="/about">About</a>
+    </div>
+    <nav class="md:hidden" aria-label="nav button" role="navigation">
+      <div id="menuToggle">
+        <input type="checkbox"/>
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <a href="/blog">
+            <li>Blog</li>
+          </a>
+          <a href="/tags">
+            <li>Tags</li>
+          </a>
+          <a href="/projects">
+            <li>Projects</li>
+          </a>
+          <a href="/about">
+            <li>About</li>
+          </a>
+        </ul>
       </div>
-      <div class="md:flex md:inline hidden">
-        <a class="px-2" href="/blog">Blog</a>
-        <a class="px-2" href="/tags">Tags</a>
-        <a class="px-2" href="/projects">Projects</a>
-        <a class="px-2" href="/about">About</a>
-      </div>
-    </header>
+    </nav>
+  </header>
+
     <div>
       <div>
         <div class="pb-6 pt-6">
           <h1 class="sm:hidden text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Title
+            Posts
           </h1>
         </div>
         <div class="flex sm:space-x-24">
@@ -61,13 +79,26 @@
               >
                 All Posts
               </a>
+              
               <ul>
+                
+                  <li>
+                    <a
+                    id="dev"
+                    href="/tags/dev"
+                    class= "py-2 px-3 uppercase text-sm font-medium text-gray-500 dark:text-gray-300 hover:text-primary-500 dark:hover:text-primary-500"
+                    aria-label={`View posts tagged ${t}`}
+                  >
+                      dev
+                      <span>10</span>
+                    </a>
+                  </li>
                 
                   <li>
                     <a
                     id="product"
                     href="/tags/product"
-                    class="py-2 px-3 uppercase text-sm font-medium text-gray-500 dark:text-gray-300 hover:text-primary-500 dark:hover:text-primary-500"
+                    class= "py-2 px-3 uppercase text-sm font-medium text-gray-500 dark:text-gray-300 hover:text-primary-500 dark:hover:text-primary-500"
                     aria-label={`View posts tagged ${t}`}
                   >
                       product
@@ -79,7 +110,7 @@
                     <a
                     id="startups"
                     href="/tags/startups"
-                    class="py-2 px-3 uppercase text-sm font-medium text-gray-500 dark:text-gray-300 hover:text-primary-500 dark:hover:text-primary-500"
+                    class= "py-2 px-3 uppercase text-sm font-medium text-gray-500 dark:text-gray-300 hover:text-primary-500 dark:hover:text-primary-500"
                     aria-label={`View posts tagged ${t}`}
                   >
                       startups
@@ -91,7 +122,7 @@
                     <a
                     id="writing"
                     href="/tags/writing"
-                    class="py-2 px-3 uppercase text-sm font-medium text-gray-500 dark:text-gray-300 hover:text-primary-500 dark:hover:text-primary-500"
+                    class= "py-2 px-3 uppercase text-sm font-medium text-gray-500 dark:text-gray-300 hover:text-primary-500 dark:hover:text-primary-500"
                     aria-label={`View posts tagged ${t}`}
                   >
                       writing
@@ -103,23 +134,11 @@
                     <a
                     id="personal"
                     href="/tags/personal"
-                    class="py-2 px-3 uppercase text-sm font-medium text-gray-500 dark:text-gray-300 hover:text-primary-500 dark:hover:text-primary-500"
+                    class="py-2 px-3 uppercase text-sm font-medium text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" 
                     aria-label={`View posts tagged ${t}`}
                   >
                       personal
                       <span>24</span>
-                    </a>
-                  </li>
-                
-                  <li>
-                    <a
-                    id="dev"
-                    href="/tags/dev"
-                    class="py-2 px-3 uppercase text-sm font-medium text-gray-500 dark:text-gray-300 hover:text-primary-500 dark:hover:text-primary-500"
-                    aria-label={`View posts tagged ${t}`}
-                  >
-                      dev
-                      <span>10</span>
                     </a>
                   </li>
                 

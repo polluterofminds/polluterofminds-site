@@ -25,9 +25,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body class="bg-gray-950 text-white font-sans w-4/5 md:w-3/4 m-auto">
-  <header class="py-6 flex justify-between w-full">
+  
+  <header class="py-6 flex justify-between w-full items-center">
     <div>
-      <a href="/"><h3 class="text-xl">@polluterofminds</h3></a>
+      <a href="/">
+        <h3 class="text-xl">@polluterofminds</h3>
+      </a>
     </div>
     <div class="md:flex md:inline hidden">
       <a class="px-2" href="/blog">Blog</a>
@@ -35,7 +38,30 @@
       <a class="px-2" href="/projects">Projects</a>
       <a class="px-2" href="/about">About</a>
     </div>
+    <nav class="md:hidden" aria-label="nav button" role="navigation">
+      <div id="menuToggle">
+        <input type="checkbox"/>
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <a href="/blog">
+            <li>Blog</li>
+          </a>
+          <a href="/tags">
+            <li>Tags</li>
+          </a>
+          <a href="/projects">
+            <li>Projects</li>
+          </a>
+          <a href="/about">
+            <li>About</li>
+          </a>
+        </ul>
+      </div>
+    </nav>
   </header>
+
   <article>
         <div class="xl:divide-y xl:divide-gray-200 xl:dark:divide-gray-700">
           <header class="pt-6 xl:pb-6">
