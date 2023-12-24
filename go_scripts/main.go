@@ -27,6 +27,7 @@ var Frontmatter struct {
 	Tags    []string  `yaml:"tags"`
 	Summary string    `yaml:"summary"`
 	Draft   bool      `yaml:"draft"`
+	Cover   string    `yaml:"cover"`
 }
 
 type PostIndex struct {
@@ -36,6 +37,7 @@ type PostIndex struct {
 	Summary   string
 	Slug      string
 	HostedURL string
+	Cover     string
 }
 
 var posts []PostIndex

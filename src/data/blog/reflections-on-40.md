@@ -1,11 +1,10 @@
 ---
-slug: /reflections-on-40
-title: Reflections on 40
-date: '2023-11-30T14:40:53.929Z'
+slug: "/reflections-on-40"
+title: "Reflections on 40"
+date: "2023-11-30T14:40:53.929Z"
 draft: false
-tags:
-  - personal
-summary: ''
+tags: ["personal"]
+summary: ""
 ---
 I turned 40 years old a few days ago. Leading up to this birthday, I spent a lot of time thinking about what it meant. Was it a midlife crisis causing me to think so much? Was it simple ruminations on my life to that point? I don't know. However, what I do know is that leading up to my 40th, I began to drink from the cup of pessimism. Considering the ages that my grandparents passed away, I began to dwell on what I had convinced myself as fact–half my life was gone.
 

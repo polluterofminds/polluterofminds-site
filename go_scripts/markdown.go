@@ -45,6 +45,7 @@ func copyMarkdownFile(src, dst string) error {
 			Frontmatter.Summary,
 			slug,
 			os.Getenv("HOSTED_URL"),
+			Frontmatter.Cover,
 		}
 
 		fmt.Println(index)

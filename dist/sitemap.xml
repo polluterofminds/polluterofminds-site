@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset>
   <url>
+    <loc>https://polluterofminds.com/blog/why-i-built-my-own-static-site-generator-in-go</loc>
+    <lastmod>2023-12-24T14:48:59Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://polluterofminds.com/blog/reflections-on-40</loc>
     <lastmod>2023-11-30T14:40:53Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -386,25 +392,25 @@
   </url>
   <url>
     <loc>https://polluterofminds.com</loc>
-    <lastmod>2023-12-22T16:19:21-06:00</lastmod>
+    <lastmod>2023-12-24T09:33:59-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://polluterofminds.com/about</loc>
-    <lastmod>2023-12-22T16:19:21-06:00</lastmod>
+    <lastmod>2023-12-24T09:33:59-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://polluterofminds.com/projects</loc>
-    <lastmod>2023-12-22T16:19:21-06:00</lastmod>
+    <lastmod>2023-12-24T09:33:59-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://polluterofminds.com/tags</loc>
-    <lastmod>2023-12-22T16:19:21-06:00</lastmod>
+    <lastmod>2023-12-24T09:33:59-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>

@@ -4,6 +4,12 @@
     <link>https://polluterofminds.com</link>
     <description>RSS feed for my blog</description>
     <item>
+      <title>Why I Built My Own Static Site Generator In Go</title>
+      <link>https://polluterofminds/blog/why-i-built-my-own-static-site-generator-in-go</link>
+      <description>I could have rebuilt my site using an off-the-shelf static site generator, but I didn&#39;t. I chose to write it in Go.</description>
+      <pubDate>Sun, 24 Dec 2023 14:48:59 +0000</pubDate>
+    </item>
+    <item>
       <title>Reflections on 40</title>
       <link>https://polluterofminds/blog/reflections-on-40</link>
       <description></description>
