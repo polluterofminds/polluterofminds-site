@@ -818,6 +818,7 @@ select {
   margin-top: 1.25em;
   margin-bottom: 1.25em;
   padding-left: 1.625em;
+  color: #fff;
 }
 
 .prose :where(ol[type="A"]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
@@ -861,6 +862,7 @@ select {
   margin-top: 1.25em;
   margin-bottom: 1.25em;
   padding-left: 1.625em;
+  color: #fff;
 }
 
 .prose :where(ol > li):not(:where([class~="not-prose"],[class~="not-prose"] *))::marker {
@@ -885,8 +887,16 @@ select {
   margin-bottom: 3em;
 }
 
-.prose {
-  blockquote: #fff;
+.prose :where(blockquote):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-weight: 500;
+  font-style: italic;
+  color: #fff;
+  border-left-width: 0.25rem;
+  border-left-color: var(--tw-prose-quote-borders);
+  quotes: "\201C""\201D""\2018""\2019";
+  margin-top: 1.6em;
+  margin-bottom: 1.6em;
+  padding-left: 1em;
 }
 
 .prose :where(blockquote p:first-of-type):not(:where([class~="not-prose"],[class~="not-prose"] *))::before {
@@ -1265,10 +1275,6 @@ select {
 
 .prose :where(.prose > :last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
   margin-bottom: 0;
-}
-
-.prose :where(ol>li):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
-  color: #fff;
 }
 
 .prose :where(h1,h2,h3,h4,h5,h6):not(:where([class~="not-prose"],[class~="not-prose"] *)) {

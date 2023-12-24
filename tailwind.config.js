@@ -21,7 +21,10 @@ module.exports = {
       typography: ({ theme }) => ({
         DEFAULT: {
           css: {
-            "ol>li": {
+            ol: {
+              color: "#fff"
+            },
+            ul: {
               color: "#fff"
             },
             li: {
@@ -54,7 +57,9 @@ module.exports = {
             code: {
               color: theme('colors.indigo.500'),
             },
-            blockquote: "#fff"
+            blockquote: {
+              color: "#fff"
+            }
           },
         },                         
       }),
