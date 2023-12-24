@@ -936,7 +936,7 @@ select {
 }
 
 .prose :where(h3):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
-  color: var(--tw-prose-headings);
+  color: #fff;
   font-weight: 600;
   font-size: 1.25em;
   margin-top: 1.6em;
@@ -1278,12 +1278,13 @@ select {
 }
 
 .prose :where(h1,h2,h3,h4,h5,h6):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
-  color: #f3f4f6;
+  color: #fff;
 }
 
 .prose :where(h1,h2):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
   font-weight: 700;
   letter-spacing: -0.025em;
+  color: #fff;
 }
 
 .sr-only {
@@ -1934,6 +1935,11 @@ select {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-200 {
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 
 .placeholder-gray-400::-moz-placeholder {

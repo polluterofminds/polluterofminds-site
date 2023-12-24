@@ -45,14 +45,16 @@ module.exports = {
               code: { color: theme('colors.primary.400') },
             },
             'h1,h2,h3,h4,h5,h6': {
-              color: theme('colors.gray.100'),
+              color: "#fff",
             },
             'h1,h2': {
               fontWeight: '700',
               letterSpacing: theme('letterSpacing.tight'),
+              color: "#fff"
             },
             h3: {
               fontWeight: '600',
+              color: "#fff"
             },
             code: {
               color: theme('colors.indigo.500'),
