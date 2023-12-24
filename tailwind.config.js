@@ -21,6 +21,19 @@ module.exports = {
       typography: ({ theme }) => ({
         DEFAULT: {
           css: {
+            "ol>li": {
+              color: "#fff"
+            },
+            li: {
+              color: "#fff"
+            },
+            p: {
+              color: "#fff", 
+            },
+            strong: {
+              color: "#fff",
+              fontWeight: 700
+            },             
             a: {
               color: theme('colors.primary.500'),
               '&:hover': {
@@ -41,6 +54,7 @@ module.exports = {
             code: {
               color: theme('colors.indigo.500'),
             },
+            blockquote: "#fff"
           },
         },                         
       }),
