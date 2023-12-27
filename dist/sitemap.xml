@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset>
   <url>
+    <loc>https://polluterofminds.com/blog/how-to-code-sign-and-notarize-an-electron-app-on-macos</loc>
+    <lastmod>2023-12-27T12:21:08Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://polluterofminds.com/blog/why-i-built-my-own-static-site-generator-in-go</loc>
     <lastmod>2023-12-24T14:48:59Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -392,25 +398,25 @@
   </url>
   <url>
     <loc>https://polluterofminds.com</loc>
-    <lastmod>2023-12-24T10:37:28-06:00</lastmod>
+    <lastmod>2023-12-27T08:40:21-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://polluterofminds.com/about</loc>
-    <lastmod>2023-12-24T10:37:28-06:00</lastmod>
+    <lastmod>2023-12-27T08:40:21-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://polluterofminds.com/projects</loc>
-    <lastmod>2023-12-24T10:37:28-06:00</lastmod>
+    <lastmod>2023-12-27T08:40:21-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://polluterofminds.com/tags</loc>
-    <lastmod>2023-12-24T10:37:28-06:00</lastmod>
+    <lastmod>2023-12-27T08:40:21-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
