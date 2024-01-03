@@ -4,6 +4,12 @@
     <link>https://polluterofminds.com</link>
     <description>RSS feed for my blog</description>
     <item>
+      <title>Just Launch It</title>
+      <link>https://polluterofminds/blog/just-launch-it</link>
+      <description>Validation is an important part of product development, but it turns out you might be able to just launch.</description>
+      <pubDate>Tue, 02 Jan 2024 12:17:35 +0000</pubDate>
+    </item>
+    <item>
       <title>How To Code Sign And Notarize An Electron App On macOS</title>
       <link>https://polluterofminds/blog/how-to-code-sign-and-notarize-an-electron-app-on-macos</link>
       <description>Building an Electron app is hard enough, but trying to generate a signed and notarized build for Macs was painful.</description>
