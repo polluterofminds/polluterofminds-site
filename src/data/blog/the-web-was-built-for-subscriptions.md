@@ -4,6 +4,7 @@ title: "The Web Was Built For Subscriptions"
 date: "2024-01-05T12:21:43.031Z"
 summary: "Subscription SaaS fatigue is a very real thing, but it's also necessary."
 draft: false
+cover: "https://images.unsplash.com/photo-1553729459-efe14ef6055d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0MDkwMjh8MHwxfHNlYXJjaHwyfHxtb25leXxlbnwwfHx8fDE3MDQ0NTg5ODh8MA&ixlib=rb-4.0.3&q=80&w=1080"
 tags: ["product","startups"]
 ---
 ![](https://images.unsplash.com/photo-1553729459-efe14ef6055d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0MDkwMjh8MHwxfHNlYXJjaHwyfHxtb25leXxlbnwwfHx8fDE3MDQ0NTg5ODh8MA&ixlib=rb-4.0.3&q=80&w=1080)  

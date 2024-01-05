@@ -1,16 +1,13 @@
 package main
 
 import (
-	"fmt"
 	"os"
 	"text/template"
 )
 
 func buildSearchPage() {
 	// Open the source file for reading
-	sourceFile, err := os.Open(about)
-
-	fmt.Println(sourceFile)
+	_, err := os.Open(about)
 
 	tmpl, err := template.New(search).ParseFiles(footer, search, head, nav)
 	if err != nil {

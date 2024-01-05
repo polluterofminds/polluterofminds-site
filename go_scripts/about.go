@@ -41,9 +41,7 @@ var about = "../src/data/about.md"
 
 func buildAbout() {
 	// Open the source file for reading
-	sourceFile, err := os.Open(about)
-
-	fmt.Println(sourceFile)
+	_, err := os.Open(about)
 
 	// Convert Markdown to HTML
 	dat, err := os.ReadFile(about)
@@ -70,8 +68,6 @@ func buildAbout() {
 		AboutFrontMatter.Warpcast,
 		string(output),
 	}
-
-	fmt.Println(about_page)
 
 	var tmplFile = "about.tmpl"
 	tmpl, err := template.New(tmplFile).ParseFiles(footer, tmplFile, head, nav)

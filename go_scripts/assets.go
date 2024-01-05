@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"io"
 	"os"
 	"path/filepath"
@@ -10,8 +9,6 @@ import (
 func copyFile(src, dst string) error {
 	// Open the source file for reading
 	sourceFile, err := os.Open(src)
-
-	fmt.Println(sourceFile)
 
 	defer sourceFile.Close()
 

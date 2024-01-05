@@ -15,10 +15,7 @@ import (
 
 func copyMarkdownFile(src, dst string) error {
 	// Open the source file for reading
-	fmt.Println(src)
-	sourceFile, err := os.Open(src)
-
-	fmt.Println(sourceFile)
+	_, err := os.Open(src)
 
 	// Will print 'Match'
 	fileExtension := filepath.Ext(src)
@@ -33,6 +30,8 @@ func copyMarkdownFile(src, dst string) error {
 		if err != nil {
 			fmt.Println("Error parsing...")
 		}
+		fmt.Println("Cover: ")
+		fmt.Println(Frontmatter.Cover)
 
 		slug := slug.Make(Frontmatter.Title)
 
@@ -48,15 +47,13 @@ func copyMarkdownFile(src, dst string) error {
 			Frontmatter.Cover,
 		}
 
-		fmt.Println(index)
-
 		posts = append(posts, index)
 
-		var cover string = "/assets/twitter_card.png"
-
-		if Frontmatter.Cover != "" {
-			cover = Frontmatter.Cover
-		}
+		var cover string = "https://pinata-tutorials.mypinata.cloud/ipfs/Qmc6hsZzaAkWkHdvR13nj1a9esJ6CdwrXM61xk17nVDkvf"
+		// fmt.Println(cover)
+		// if Frontmatter.Cover != "" {
+		// 	cover = Frontmatter.Cover
+		// }
 
 		var post Post = Post{
 			Frontmatter.Title,

@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"log"
 
 	"github.com/fsnotify/fsnotify"
@@ -23,9 +22,7 @@ func watchGoFiles() {
 				if !ok {
 					return
 				}
-				fmt.Println("event:", event)
 				if event.Op&fsnotify.Write == fsnotify.Write {
-					fmt.Println("modified file:", event.Name)
 					build()
 				}
 			case err, ok := <-watcher.Errors:
@@ -64,9 +61,7 @@ func watch() {
 				if !ok {
 					return
 				}
-				fmt.Println("event:", event)
 				if event.Op&fsnotify.Write == fsnotify.Write || event.Op&fsnotify.Chmod == fsnotify.Chmod {
-					fmt.Println("modified file:", event.Name)
 					build()
 				}
 			case err, ok := <-watcher.Errors:
