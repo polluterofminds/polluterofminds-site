@@ -52,6 +52,12 @@ func copyMarkdownFile(src, dst string) error {
 
 		posts = append(posts, index)
 
+		var cover string = "/assets/twitter_card.png"
+
+		if Frontmatter.Cover != "" {
+			cover = Frontmatter.Cover
+		}
+
 		var post Post = Post{
 			Frontmatter.Title,
 			Frontmatter.Date,
@@ -62,7 +68,7 @@ func copyMarkdownFile(src, dst string) error {
 			"/assets/me.jpg",
 			"https://twitter.com/polluterofminds",
 			"@polluterofminds",
-			"/assets/twitter_card.png",
+			cover,
 			string(output),
 		}
 

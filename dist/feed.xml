@@ -4,6 +4,12 @@
     <link>https://polluterofminds.com</link>
     <description>RSS feed for my blog</description>
     <item>
+      <title>The Web Was Built For Subscriptions</title>
+      <link>https://polluterofminds/blog/the-web-was-built-for-subscriptions</link>
+      <description>Subscription SaaS fatigue is a very real thing, but it&#39;s also necessary.</description>
+      <pubDate>Fri, 05 Jan 2024 12:21:43 +0000</pubDate>
+    </item>
+    <item>
       <title>Just Launch It</title>
       <link>https://polluterofminds/blog/just-launch-it</link>
       <description>Validation is an important part of product development, but it turns out you might be able to just launch.</description>
