@@ -4,6 +4,12 @@
     <link>https://polluterofminds.com</link>
     <description>RSS feed for my blog</description>
     <item>
+      <title>Take The Easy Path</title>
+      <link>https://polluterofminds/blog/take-the-easy-path</link>
+      <description></description>
+      <pubDate>Fri, 08 Mar 2024 14:29:09 +0000</pubDate>
+    </item>
+    <item>
       <title>The Web Was Built For Subscriptions</title>
       <link>https://polluterofminds/blog/the-web-was-built-for-subscriptions</link>
       <description>Subscription SaaS fatigue is a very real thing, but it&#39;s also necessary.</description>
