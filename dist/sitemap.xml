@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset>
   <url>
+    <loc>https://polluterofminds.com/blog/learning-to-code-killed-my-writing-hobby</loc>
+    <lastmod>2024-06-13T11:43:05Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://polluterofminds.com/blog/the-first-step-in-the-stair-step-approach-to-bootstrapping</loc>
     <lastmod>2024-06-02T14:41:41Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -57,12 +63,6 @@
   <url>
     <loc>https://polluterofminds.com/blog/protocols-and-paradigms</loc>
     <lastmod>2023-09-10T17:49:33Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://polluterofminds.com/blog/startups-by-scale</loc>
-    <lastmod>2023-08-16T13:39:03Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -422,25 +422,25 @@
   </url>
   <url>
     <loc>https://polluterofminds.com</loc>
-    <lastmod>2024-06-02T10:00:27-05:00</lastmod>
+    <lastmod>2024-06-13T08:29:06-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://polluterofminds.com/about</loc>
-    <lastmod>2024-06-02T10:00:27-05:00</lastmod>
+    <lastmod>2024-06-13T08:29:06-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://polluterofminds.com/projects</loc>
-    <lastmod>2024-06-02T10:00:27-05:00</lastmod>
+    <lastmod>2024-06-13T08:29:06-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://polluterofminds.com/tags</loc>
-    <lastmod>2024-06-02T10:00:27-05:00</lastmod>
+    <lastmod>2024-06-13T08:29:06-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>

@@ -4,15 +4,13 @@ date: '2023-09-10T17:49:33.433Z'
 tags:
   - startups
 summary: ''
-draft: false
+draft: true
 ---
 Language is fascinating in the way people manipulate words to fit their own contexts. It's similar to the way statisticians might manipulate data analysis to tell the story they want to tell. In both cases, the manipulation may not be intentional, but the outcomes are the same. Words and numbers are twisted to meet the needs of the person (or people) conveying them.
 
 I think about this topic a lot when I think about web3 and blockchain. I have been working around the technology–and around the market the technology has created–for the past eight years, and I've seen the intentional and unintentional re-appropriation of words used to sell an idea. I use "sell" loosely here because it can mean anything from raising funding, selling a product, or selling unregistered securities tokens. The word I've seen misappropriated more than any other and the one that throws up immediate red flags is _"protocol."_
 
 In 2016 and 2017, the most surefire way to raise the VC funding necessary to launch an initial coin offering was to call your project a protocol.
-
-EXAMPLE SCAM "PROTOCOLS" HERE
 
 Before you shout that your protocol actually is a protocol, I should once again make clear that even if it's not, calling your idea a protocol does not mean you are acting malevolently. And it's very possible your project is an actual protocol. On that note, let's explore what a protocol is.
 
