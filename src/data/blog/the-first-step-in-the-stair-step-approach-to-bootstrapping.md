@@ -18,20 +18,20 @@ Which is exactly what I'm doing.
 
 Though I've built two startups in the past, one that raised through an accelerator and one that raised from angel investors, and though I've built many side projects, I decided to start at the bottom step of the Stair Step Method. But we should talk about what Step One means before we dive into what I'm building and how I'm approaching step one.
 
-Step one is to build a small app or product that has a built-in distribution mechanism. Some people choose not to make this a SaaS and instead focus on one-time payments, but others attach a subscription fee to the app with built-in distribution. In fact, Walling's original blog post focuses on one-time payments. However, the landscape has changed a lot since 2015, and many app marketplaces support subscription payments and make it easy to implement. Still, the key ingredient is distribution. But where does this distribution come from?  
-  
-It comes from marketplaces. Think Shopify apps, Slack apps, etc. these have a built-in audience so marketing is not as big a lift. It allows you to focus on the product.  
-  
-So, this brings us back to my step one.  
-  
-Some of you know I worked for ClickUp for a short period of time. During that time, I got very familiar with project management software. Coincidentally, my wife’s company started using [Monday.com](http://Monday.com) (a ClickUp competitor). Fast forward to now.  
-  
-ClickUp does not have a third-party developer marketplace but Monday does. So I talked to my wife, I poured over the Monday community forum, and I explored search trends. All of that led me to the idea for my app. Monday does not have native recurring task functionality. You either have to use a difficult combination of automations and manual updates or…you’re out of luck.  
-  
+Step one is to build a small app or product that has a built-in distribution mechanism. Some people choose not to make this a SaaS and instead focus on one-time payments, but others attach a subscription fee to the app with built-in distribution. In fact, Walling's original blog post focuses on one-time payments. However, the landscape has changed a lot since 2015, and many app marketplaces support subscription payments and make it easy to implement. Still, the key ingredient is distribution. But where does this distribution come from?
+
+It comes from marketplaces. Think Shopify apps, Slack apps, etc. these have a built-in audience so marketing is not as big a lift. It allows you to focus on the product.
+
+So, this brings us back to my step one.
+
+Some of you know I worked for ClickUp for a short period of time. During that time, I got very familiar with project management software. Coincidentally, my wife’s company started using [Monday.com](http://Monday.com) (a ClickUp competitor). Fast forward to now.
+
+ClickUp does not have a third-party developer marketplace but Monday does. So I talked to my wife, I poured over the Monday community forum, and I explored search trends. All of that led me to the idea for my app. Monday does not have native recurring task functionality. You either have to use a difficult combination of automations and manual updates or…you’re out of luck.
+
 So, I decided my step one app would be a Monday app focused on making recurring tasks possible. The beauty of this is I know people are searching for it, competition is low, and distribution is handled by Monday’s app marketplace search.
 
-Building the app was simple and painless. But, even though Monday has an app marketplace with built-in distribution, I started marketing the app through content before I'd written a line of code. Content marketing (i.e. blogging) comes naturally to me. So, it was easy to whip up a few posts to hopefully help rank for some of the keywords I found when doing SEO research. Marketing, more than building, is what makes or breaks an app. But remember, step one is about using built-in distribution, so any boost I get from content marketing is just a bonus.  
-  
-I just recently submitted the app for review and am going through the approval process. I’ll update here as the journey continues. I'll be working on this nights and weekends and in between other side projects. Pinata is my main focus, and I intend to help make the company a massive success, but I also intend to set myself up for the future. Bootstrapping makes sense. Doing it pragmatically makes even more sense. We'll see where this all leads.  
-  
+Building the app was simple and painless. But, even though Monday has an app marketplace with built-in distribution, I started marketing the app through content before I'd written a line of code. Content marketing (i.e. blogging) comes naturally to me. So, it was easy to whip up a few posts to hopefully help rank for some of the keywords I found when doing SEO research. Marketing, more than building, is what makes or breaks an app. But remember, step one is about using built-in distribution, so any boost I get from content marketing is just a bonus.
+
+I just recently submitted the app for review and am going through the approval process. I’ll update here as the journey continues. I'll be working on this nights and weekends and in between other side projects. Pinata is my main focus, and I intend to help make the company a massive success, but I also intend to set myself up for the future. Bootstrapping makes sense. Doing it pragmatically makes even more sense. We'll see where this all leads.
+
 If you use Monday and are interested in my app, sign up for the waitlist here: [https://www.tryrecur.com](https://www.tryrecur.com)

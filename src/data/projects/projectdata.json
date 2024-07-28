@@ -1,9 +1,15 @@
 [
   {
-    "title": "Changeup",
-    "description": "Writing changelogs can be tedious. Changeup helps by automating changelog creation from your commit messages.",
-    "imgSrc": "/assets/OGImageLarge.png",
-    "href": "https://getchangeup.com"
+    "title": "ReadCast",
+    "description": "ReadCast is a lightweight Goodreads alternative that makes use of open social data to pull in book recommendations and reviews while allowing you to track your library.",
+    "imgSrc": "/assets/Readcast.png",
+    "href": "https://readcast.xyz"
+  },
+  {
+    "title": "Recur",
+    "description": "Recur is a monday.com app that allows companies to implement recurring task functionality into their workflow.",
+    "imgSrc": "/assets/recur.png",
+    "href": "https://tryrecur.com"
   },
   {
     "title": "Static",
@@ -18,15 +24,21 @@
     "href": "https://getwritesprint.com"
   },
   {
-    "title": "Perligo",
+    "title": "Perligo (defunct)",
     "description": "Getting feedback on your writing is hard. Perligo solves this by allowing you to create writing groups and share your writing.",
     "imgSrc": "/assets/perligo.png",
     "href": "https://perligo.io"
   },
   {
-    "title": "Graphite Docs",
+    "title": "Graphite Docs (defunct)",
     "description": "Graphite Docs was an encrypted and decentralized alternative to Google Docs. It was designed to give the writer control.",
     "imgSrc": "/assets/graphite.png",
     "href": "https://graphitedocs.com"
+  },
+  {
+    "title": "Changeup (defunt)",
+    "description": "Writing changelogs can be tedious. Changeup helps by automating changelog creation from your commit messages.",
+    "imgSrc": "/assets/OGImageLarge.png",
+    "href": "https://getchangeup.com"
   }
 ]

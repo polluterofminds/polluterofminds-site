@@ -1179,6 +1179,7 @@ select {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   color: #fff;
+  list-type-style: disk;
 }
 
 .prose :where(ol > li):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
@@ -2414,6 +2415,10 @@ select {
 {
   transform: translate(-70%, 0);
   display: block;
+}
+
+.prose-lg ul li {
+  list-style-type: disc;
 }
 
 .hover\:bg-gray-50:hover {

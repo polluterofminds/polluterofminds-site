@@ -28,7 +28,8 @@ module.exports = {
               color: "#fff"
             },
             li: {
-              color: "#fff"
+              color: "#fff",
+              listTypeStyle: "disk"
             },
             p: {
               color: "#fff", 

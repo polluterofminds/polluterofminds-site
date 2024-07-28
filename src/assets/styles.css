@@ -146,3 +146,7 @@
   transform: translate(-70%, 0);
   display: block;
 }
+
+.prose-lg ul li {
+  list-style-type: disc;
+}

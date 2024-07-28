@@ -1,10 +1,10 @@
 ---
+excerpt: "I used to use creative writing as an outlet for my creativity. But when I learned to code, that all changed."
+tags: ["personal"]
+date: "2024-06-13T11:43:05.350Z"
+draft: false
 slug: "/learning-to-code-killed-my-writing-hobby"
 title: "Learning To Code Killed My Writing Hobby"
-date: "2024-06-13T11:43:05.350Z"
-excerpt: "I used to use creative writing as an outlet for my creativity. But when I learned to code, that all changed."
-draft: false
-tags: ["personal"]
 ---
 In 2015, I was accepted into a Master's Program in Creative Writing. I had been writing my whole life, loved (and still love) writing, and had even toyed with the idea of getting my undergraduate degree in Creative Writing or Journalism. Ultimately, I took the more practical path for my undergraduate program and got a business degree. But when I was more financially stable and a little later in my career, I decided to finally pursue writing in a more serious way.
 
@@ -24,7 +24,7 @@ During my graduate program, we used Google Docs heavily. All our writing was in 
 
 So, I decided to build a solution. My criteria were relatively simple. I wanted a writing interface that felt nice (didn't have to be as robust as Word or Google Docs), I wanted my data to be controlled by me so I could never get locked out, and I wanted to be able to access it anywhere on any device. With that list in mind, I started watching YouTube videos and taking Udemy courses. I built prototypes and I converted what I saw in tutorials into code that would serve my own needs. After months of trial and (mostly) error, I had a working prototype for what would become [Graphite Docs](https://www.youtube.com/watch?v=ZCsHdHgxa5Y).
 
-I had no intention of showing the app to anyone. I wanted it for myself. I was no programmer. The idea of other people using an app I cobbled together with duct tape and YouTube was insane. But a couple of friends saw the app and they encouraged me to share it. This led to others being interested in using it which led to me making it available for anyone, which led to it being...real.
+I had no intention of showing the app to anyone. I wanted it for myself. I was no programmer. The idea of other people using an app I cobbled together with duct tape and YouTube was insane. But a couple of friends saw the app and they encouraged me to share it. This led to others being interested in using it which led to me making it available for anyone, which led to it being…real.
 
 I worked on Graphite for three years, constantly polishing and adding/removing features. Graphite was my gateway drug to coding. After building Graphite, I felt like I'd been dropped in a vat of radioactive material that gave me superpowers. Much of my young adult and adult life was spent wanting to create businesses in tech, but I didn't have the skills to build the products I wanted to. Now, I could create anything.
 
