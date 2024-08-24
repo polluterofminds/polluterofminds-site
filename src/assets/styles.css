@@ -150,3 +150,8 @@
 .prose-lg ul li {
   list-style-type: disc;
 }
+
+.prose-lg ol li {
+  list-style-type: decimal;
+  color: white;
+}

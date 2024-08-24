@@ -115,7 +115,7 @@
               </dd>
             </dl>                        
             <div class="text-white divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
-              <div class="prose-lg text-white max-w-none pb-8 pt-10"><p><img src="https://images.unsplash.com/photo-1610337673044-720471f83677?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w0MDkwMjh8MHwxfHNlYXJjaHw0fHxTdGF0aWN8ZW58MHx8fHwxNzAzNDMxMzM5fDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080" alt="" />If you're a developer and you write blog posts, you have almost certainly fallen into one of two traps (or both):</p>
+              <div class="prose-lg prose:list-disc text-white max-w-none pb-8 pt-10"><p><img src="https://images.unsplash.com/photo-1610337673044-720471f83677?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w0MDkwMjh8MHwxfHNlYXJjaHw0fHxTdGF0aWN8ZW58MHx8fHwxNzAzNDMxMzM5fDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080" alt="" />If you&rsquo;re a developer and you write blog posts, you have almost certainly fallen into one of two traps (or both):</p>
 
 <ol>
 <li><p>Constantly rebuilding your personal site</p></li>
@@ -125,7 +125,7 @@
 
 <p>If you have the skills to build things, you are often not satisfied with what exists, even–and maybe especially–if you were the one who built the thing that exists. In the case of your personal site, this means a constant re-evaluation of the design and layout and capabilities. In the case of your CMS (content management system), you are likely using something that allows you to write and build your site locally as opposed to using a hosted CMS. These setups are called static site generators, and the great procrastination tactic that builders will leverage is to write or rewrite a custom generator.</p>
 
-<p>I have fallen victim to this procrastination technique even though I love writing. I got my graduate degree in creative writing. Yet, the creative process of building something in code often outweighs the creative process of writing prose. So, as I evaluated my personal site, I realized I wanted to rewrite it, and I, of course, couldn't just rewrite the site. I had to rewrite the static site generator from scratch.</p>
+<p>I have fallen victim to this procrastination technique even though I love writing. I got my graduate degree in creative writing. Yet, the creative process of building something in code often outweighs the creative process of writing prose. So, as I evaluated my personal site, I realized I wanted to rewrite it, and I, of course, couldn&rsquo;t just rewrite the site. I had to rewrite the static site generator from scratch.</p>
 
 <p>My site was setup like this:</p>
 
@@ -139,17 +139,17 @@
 
 <p>It loaded pretty fast and it hit 100 across the board for Lighthouse, but I wanted something more portable. Next.js is great, but when you build your site, you do not end up with well-formed HTML files. Instead, the site is generated server side and delivered to the client at request time. This means only the markdown files were portable for my site.</p>
 
-<p>The portability of markdown is a great thing, but I wanted to be able to take my raw HTML files and host them somewhere else, preserve them locally, preserve them on Github, etc. I realized, I didn't want my personal site to be a single-page app at all. I wanted to go back in time to the days of HTML and CSS, back to the days when routing took place with an anchor element and a full page refresh.</p>
+<p>The portability of markdown is a great thing, but I wanted to be able to take my raw HTML files and host them somewhere else, preserve them locally, preserve them on Github, etc. I realized, I didn&rsquo;t want my personal site to be a single-page app at all. I wanted to go back in time to the days of HTML and CSS, back to the days when routing took place with an anchor element and a full page refresh.</p>
 
-<p>Knowing the outcome I wanted, I got to work designing how I would build and generate my content. Because I <em>obviously</em> had to create a static site generator from scratch for this as no off-the-shelf options could possibly satisfy my needs*, I began thinking about how I'd write this generator. Initially, I reached for Node.js which I know like the back of my hand. However, I learned Go a couple of years ago and hadn't used it much. I had been wanting to get more proficient with Go, and this felt like a good opportunity. The generator would be written in go.</p>
+<p>Knowing the outcome I wanted, I got to work designing how I would build and generate my content. Because I <em>obviously</em> had to create a static site generator from scratch for this as no off-the-shelf options could possibly satisfy my needs*, I began thinking about how I&rsquo;d write this generator. Initially, I reached for Node.js which I know like the back of my hand. However, I learned Go a couple of years ago and hadn&rsquo;t used it much. I had been wanting to get more proficient with Go, and this felt like a good opportunity. The generator would be written in go.</p>
 
-<p><em>*Literally dozens of off-the-shelf solutions would have worked for this. I'm especially fond of Eleventy.</em></p>
+<p><em>*Literally dozens of off-the-shelf solutions would have worked for this. I&rsquo;m especially fond of Eleventy.</em></p>
 
 <p>I began writing my generator at about 10,000 feet in the air, climbing to a nice coding altitude of 30,000 feet before I hit my groove. I was traveling for work, and a nice in-flight coding session felt like a good time to get started on my custom generator.</p>
 
 <p>I began by over-complicating things.</p>
 
-<p>I figured if I was writing the generator in Go, maybe I should write the development file server in Go. This was not a difficult thing to do as Go has built-in handling for file servers. However, I couldn't stop there. I also wanted hot-reloading. That was considerably more difficult. Turns out that hot-reloading a local website with a Go server is not nearly as straightforward as it is with the Node.js ecosystem. I had to add a script to each page of my site that would listen for Server-Sent Events. Then, I had to configure my Go server to use a watcher to watch for changes on the files I expected to change frequently. This kind of worked, but I had to keep tweaking it, and eventually, I realized I was building a server and not building my static site generator.</p>
+<p>I figured if I was writing the generator in Go, maybe I should write the development file server in Go. This was not a difficult thing to do as Go has built-in handling for file servers. However, I couldn&rsquo;t stop there. I also wanted hot-reloading. That was considerably more difficult. Turns out that hot-reloading a local website with a Go server is not nearly as straightforward as it is with the Node.js ecosystem. I had to add a script to each page of my site that would listen for Server-Sent Events. Then, I had to configure my Go server to use a watcher to watch for changes on the files I expected to change frequently. This kind of worked, but I had to keep tweaking it, and eventually, I realized I was building a server and not building my static site generator.</p>
 
 <p>I scrapped the file server idea and fell back to using <a href="https://github.com/johnpapa/lite-server">lite-server</a>, a simple file server with hot-reloading built-in written in JavaScript.</p>
 
@@ -159,13 +159,13 @@
 
 <p>After three weeks of working off and on, I had not only rebuilt my personal site, but I had built a custom static site generator in Go. Why did I do that instead of taking one day to write it using any number of generators on the market?</p>
 
-<p>Because I'm a maniac.</p>
+<p>Because I&rsquo;m a maniac.</p>
 
-<p>And because I'm a builder.</p>
+<p>And because I&rsquo;m a builder.</p>
 
-<p>And because I'm a procrastinator.</p>
+<p>And because I&rsquo;m a procrastinator.</p>
 
-<p>If you're reading my blog, you're probably a lot like me, and you might be interested in the code for this custom monstrosity that I built. It's not perfect, but it works, and I have a better grip on Go than I did before. <a href="https://github.com/polluterofminds/polluterofminds-site">You can see the repo here</a>.</p>
+<p>If you&rsquo;re reading my blog, you&rsquo;re probably a lot like me, and you might be interested in the code for this custom monstrosity that I built. It&rsquo;s not perfect, but it works, and I have a better grip on Go than I did before. <a href="https://github.com/polluterofminds/polluterofminds-site">You can see the repo here</a>.</p>
 
 <p>This blog post is proof that I can, indeed, write blog posts instead of constantly rewriting my site and my static site generator. And if I can do it, so can you.</p>
 </div>

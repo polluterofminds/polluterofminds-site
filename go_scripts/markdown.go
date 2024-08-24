@@ -10,7 +10,7 @@ import (
 
 	"github.com/adrg/frontmatter"
 	"github.com/gosimple/slug"
-	"github.com/russross/blackfriday"
+	"github.com/russross/blackfriday/v2"
 )
 
 func copyMarkdownFile(src, dst string) error {
@@ -35,7 +35,7 @@ func copyMarkdownFile(src, dst string) error {
 
 		slug := slug.Make(Frontmatter.Title)
 
-		output := blackfriday.MarkdownBasic(rest)
+		output := blackfriday.Run(rest, blackfriday.WithExtensions(blackfriday.CommonExtensions|blackfriday.Strikethrough))
 
 		var index PostIndex = PostIndex{
 			Frontmatter.Title,
