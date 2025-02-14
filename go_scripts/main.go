@@ -2,13 +2,10 @@ package main
 
 import (
 	"fmt"
-	"log"
 	"os"
 	"sort"
 	"text/template"
 	"time"
-
-	"github.com/joho/godotenv"
 )
 
 var footer = "footer.tmpl"
@@ -111,10 +108,10 @@ func build() {
 }
 
 func main() {
-	err := godotenv.Load()
-	if err != nil {
-		log.Fatal("Error loading .env file")
-	}
+	// err := godotenv.Load()
+	// if err != nil {
+	// 	log.Fatal("Error loading .env file")
+	// }
 
 	build()
 	watch()

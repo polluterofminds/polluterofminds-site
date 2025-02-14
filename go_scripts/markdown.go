@@ -29,9 +29,8 @@ func copyMarkdownFile(src, dst string) error {
 		rest, err := frontmatter.Parse(strings.NewReader(string(dat)), &Frontmatter)
 		if err != nil {
 			fmt.Println("Error parsing...")
+			fmt.Println(err)
 		}
-		fmt.Println("Cover: ")
-		fmt.Println(Frontmatter.Cover)
 
 		slug := slug.Make(Frontmatter.Title)
 
@@ -43,7 +42,7 @@ func copyMarkdownFile(src, dst string) error {
 			Frontmatter.Tags,
 			Frontmatter.Summary,
 			slug,
-			os.Getenv("HOSTED_URL"),
+			"https://pinata-tutorials.mypinata.cloud/ipfs/QmVJhZCEabf3BG35yzD482rNgstwsHq6QnTStdGimsUAdy",
 			Frontmatter.Cover,
 		}
 
@@ -83,6 +82,7 @@ func copyMarkdownFile(src, dst string) error {
 		if err != nil {
 			panic(err)
 		}
+
 		err = tmpl.Execute(f2, post)
 		if err != nil {
 			panic(err)
