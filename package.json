@@ -9,7 +9,7 @@
     "server": "lite-server --baseDir=\"dist\"", 
     "tailwind-watcher": "npx tailwindcss -i ./src/assets/styles.css -o ./dist/assets/styles.css --watch",
     "dev": "concurrently \"npm run build\" \"npm run tailwind-watcher\" \"npm run server\"", 
-    "build": "concurrently \"cd go_scripts && go run . build && cd ..\" \"npx tailwindcss -i ./src/assets/styles.css -o ./dist/assets/styles.css\""
+    "build": "node -v"
   },
   "keywords": [],
   "author": "",
