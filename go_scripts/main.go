@@ -108,11 +108,16 @@ func build() {
 }
 
 func main() {
-	// err := godotenv.Load()
-	// if err != nil {
-	// 	log.Fatal("Error loading .env file")
-	// }
-
-	build()
-	watch()
+    args := os.Args[1:]
+    buildOnly := false
+    
+    if len(args) > 0 && args[0] == "build" {
+        buildOnly = true
+    }
+    
+    build()
+    
+    if !buildOnly {
+        watch()
+    }
 }
