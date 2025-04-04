@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "0cf545549ea28b78",
+    "type": "split",
+    "children": [
+      {
+        "id": "9f771c44e301e498",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e87cc811ca5f0d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "product-and-engineering-in-the-age-of-ai.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "product-and-engineering-in-the-age-of-ai"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7516ce057bf03c5c",
+    "type": "split",
+    "children": [
+      {
+        "id": "213e86b21bafb6ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "25f2bf71c403014e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "40fd5a3fcf34fa74",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "48d7dc08c965f8bd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0a872602a53ecbb7",
+    "type": "split",
+    "children": [
+      {
+        "id": "a3a6d3a68fe5f90c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cf1464bf49c29ed8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "product-and-engineering-in-the-age-of-ai.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for product-and-engineering-in-the-age-of-ai"
+            }
+          },
+          {
+            "id": "c3b732217975be83",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "product-and-engineering-in-the-age-of-ai.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from product-and-engineering-in-the-age-of-ai"
+            }
+          },
+          {
+            "id": "db1c97fd812b0585",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "03b943adad221403",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "product-and-engineering-in-the-age-of-ai.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of product-and-engineering-in-the-age-of-ai"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "7e87cc811ca5f0d7",
+  "lastOpenFiles": [
+    "Pasted image 20250404082954.png",
+    "product-and-engineering-in-the-age-of-ai.md"
+  ]
+}

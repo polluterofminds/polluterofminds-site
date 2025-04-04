@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset>
   <url>
+    <loc>https://polluterofminds.com/blog/product-and-engineering-in-the-age-of-ai</loc>
+    <lastmod>2025-04-04T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://polluterofminds.com/blog/the-substack-paradox-when-platform-branding-trumps-custom-domains</loc>
     <lastmod>2025-02-14T01:50:14Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -458,25 +464,25 @@
   </url>
   <url>
     <loc>https://polluterofminds.com</loc>
-    <lastmod>2025-02-14T10:02:47-06:00</lastmod>
+    <lastmod>2025-04-04T10:08:17-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://polluterofminds.com/about</loc>
-    <lastmod>2025-02-14T10:02:47-06:00</lastmod>
+    <lastmod>2025-04-04T10:08:17-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://polluterofminds.com/projects</loc>
-    <lastmod>2025-02-14T10:02:47-06:00</lastmod>
+    <lastmod>2025-04-04T10:08:17-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://polluterofminds.com/tags</loc>
-    <lastmod>2025-02-14T10:02:47-06:00</lastmod>
+    <lastmod>2025-04-04T10:08:17-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
