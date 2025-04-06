@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "product-and-engineering-in-the-age-of-ai"
             }
+          },
+          {
+            "id": "0da6e320f9ba76fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "on-reading-widely-and-wildly.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "on-reading-widely-and-wildly"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "product-and-engineering-in-the-age-of-ai.md",
+                "file": "on-reading-widely-and-wildly.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for product-and-engineering-in-the-age-of-ai"
+              "title": "Backlinks for on-reading-widely-and-wildly"
             }
           },
           {
@@ -113,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "product-and-engineering-in-the-age-of-ai.md",
+                "file": "on-reading-widely-and-wildly.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from product-and-engineering-in-the-age-of-ai"
+              "title": "Outgoing links from on-reading-widely-and-wildly"
             }
           },
           {
@@ -142,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "product-and-engineering-in-the-age-of-ai.md",
+                "file": "on-reading-widely-and-wildly.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of product-and-engineering-in-the-age-of-ai"
+              "title": "Outline of on-reading-widely-and-wildly"
             }
           }
         ]
@@ -168,9 +183,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7e87cc811ca5f0d7",
+  "active": "0da6e320f9ba76fd",
   "lastOpenFiles": [
-    "Pasted image 20250404082954.png",
-    "product-and-engineering-in-the-age-of-ai.md"
+    "Pasted image 20250406100806.png",
+    "product-and-engineering-in-the-age-of-ai.md",
+    "on-reading-widely-and-wildly.md",
+    "Pasted image 20250404082954.png"
   ]
 }

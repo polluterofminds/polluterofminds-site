@@ -96,9 +96,11 @@ func copyMarkdownFile(src, dst string) error {
 }
 
 func buildBlog(srcDir, dstDir string) error {
+	fmt.Println("Building blog...")
 	posts = []PostIndex{}
 	return filepath.Walk(srcDir, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
+			fmt.Println("Error waling the src directory")
 			return err
 		}
 
@@ -115,6 +117,7 @@ func buildBlog(srcDir, dstDir string) error {
 		}
 
 		// If it's a file, copy it
+		fmt.Println(path)
 		return copyMarkdownFile(path, destPath)
 	})
 }

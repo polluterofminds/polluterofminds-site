@@ -8,7 +8,7 @@
     "go-server": "cd go_scripts && go run .",
     "server": "lite-server --baseDir=\"dist\"", 
     "tailwind-watcher": "npx tailwindcss -i ./src/assets/styles.css -o ./dist/assets/styles.css --watch",
-    "dev": "concurrently \"npm run build\" \"npm run tailwind-watcher\" \"npm run server\"", 
+    "dev": "concurrently \"npm run go-server\" \"npm run tailwind-watcher\" \"npm run server\"", 
     "build": "node -v"
   },
   "keywords": [],
