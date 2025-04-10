@@ -1,6 +1,6 @@
 ---
 title: On Reading Widely (And Wildly)
-date: '2025-04-16T00:59:44.000Z'
+date: '2025-04-08T00:59:44.000Z'
 tags:
   - personal
 summary: ''

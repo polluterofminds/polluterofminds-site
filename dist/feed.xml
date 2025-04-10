@@ -4,10 +4,16 @@
     <link>https://polluterofminds.com</link>
     <description>RSS feed for my blog</description>
     <item>
+      <title>Sketching With Ollama</title>
+      <link>https://polluterofminds/blog/sketching-with-ollama</link>
+      <description></description>
+      <pubDate>Thu, 10 Apr 2025 00:59:44 +0000</pubDate>
+    </item>
+    <item>
       <title>On Reading Widely (And Wildly)</title>
       <link>https://polluterofminds/blog/on-reading-widely-and-wildly</link>
       <description></description>
-      <pubDate>Wed, 16 Apr 2025 00:59:44 +0000</pubDate>
+      <pubDate>Tue, 08 Apr 2025 00:59:44 +0000</pubDate>
     </item>
     <item>
       <title>Product and Engineering in the Age of AI</title>
