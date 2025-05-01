@@ -15,10 +15,10 @@ type RSS struct {
 }
 
 type Channel struct {
-	Title       string `xml:"title"`
-	Link        string `xml:"link"`
-	Description string `xml:"description"`
-	Items       []Item `xml:"item"`
+	Title       string  `xml:"title"`
+	Link        string  `xml:"link"`
+	Description string  `xml:"description"`
+	Items       []Item  `xml:"item"`
 }
 
 type Item struct {
@@ -33,7 +33,7 @@ func createRssFeed() {
 	for _, post := range posts {
 		item := Item{
 			Title:       post.Title,
-			Link:        "https://polluterofminds/blog/" + post.Slug,
+			Link:        "https://polluterofminds.com/blog/" + post.Slug,
 			Description: post.Summary,
 			PubDate:     post.Date.Format(time.RFC1123Z),
 		}
@@ -57,5 +57,14 @@ func createRssFeed() {
 		log.Fatal(err)
 	}
 
-	os.WriteFile("../dist/feed.xml", []byte(xmlData), 0644)
+	// Add XML declaration before the marshaled data
+	xmlWithHeader := []byte(xml.Header + string(xmlData))
+
+	// Write to file
+	err = os.WriteFile("../dist/feed.xml", xmlWithHeader, 0644)
+	if err != nil {
+		log.Fatal(err)
+	}
+	
+	log.Println("RSS feed created successfully at ../dist/feed.xml")
 }
