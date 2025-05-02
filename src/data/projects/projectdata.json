@@ -1,9 +1,9 @@
 [
   {
-    "title": "ReadCast",
-    "description": "ReadCast is a lightweight Goodreads alternative that makes use of open social data to pull in book recommendations and reviews while allowing you to track your library.",
-    "imgSrc": "/assets/Readcast.png",
-    "href": "https://readcast.xyz"
+    "title": "Orbiter",
+    "description": "Orbiter is bringing back static web hosting to help developers avoid vendor lock in and bring the web back to what it was meant to be.",
+    "imgSrc": "/assets/orbiter.png",
+    "href": "https://orbiter.host"
   },
   {
     "title": "Recur",
@@ -24,19 +24,25 @@
     "href": "https://getwritesprint.com"
   },
   {
-    "title": "Perligo (defunct)",
+    "title": "ReadCast",
+    "description": "ReadCast is a lightweight Goodreads alternative that makes use of open social data to pull in book recommendations and reviews while allowing you to track your library.",
+    "imgSrc": "/assets/Readcast.png",
+    "href": "https://github.com/polluterofminds/readcast-app"
+  },
+  {
+    "title": "Perligo",
     "description": "Getting feedback on your writing is hard. Perligo solves this by allowing you to create writing groups and share your writing.",
     "imgSrc": "/assets/perligo.png",
-    "href": "https://perligo.io"
+    "href": "https://github.com/polluterofminds/perligo-client"
   },
   {
-    "title": "Graphite Docs (defunct)",
+    "title": "Graphite Docs",
     "description": "Graphite Docs was an encrypted and decentralized alternative to Google Docs. It was designed to give the writer control.",
     "imgSrc": "/assets/graphite.png",
-    "href": "https://graphitedocs.com"
+    "href": "https://github.com/Graphite-Docs/graphite"
   },
   {
-    "title": "Changeup (defunt)",
+    "title": "Changeup",
     "description": "Writing changelogs can be tedious. Changeup helps by automating changelog creation from your commit messages.",
     "imgSrc": "/assets/OGImageLarge.png",
     "href": "https://getchangeup.com"
