@@ -5,6 +5,7 @@ tags:
   - product
   - blog
 draft: false
+image: /assets/images/ollama.png
 ---
 When I was first learning how to code, I naturally started with what I thought was the most accessible and visible part of coding—frontend. What a wake-up call that was to discover that frontend development wasn't just some HTML and CSS. But, I'm glad that's the path I took, even if it was difficult. 
 

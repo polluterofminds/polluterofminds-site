@@ -1,5 +1,9 @@
 ---
 layout: layouts/base
+eleventyComputed:
+  image: "{{ image }}"
+  description: "{% if description %}{{ description }}{% else %}A blog post by Justin Hunter{% endif %}"
+  title: "{{ title }}"
 ---
 <div class="bg-gray-950 text-white font-sans w-full h-full m-auto">
   <div>
