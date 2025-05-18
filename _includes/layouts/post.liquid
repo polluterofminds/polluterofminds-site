@@ -1,0 +1,43 @@
+---
+layout: layouts/base
+---
+<div class="bg-gray-950 text-white font-sans w-full h-full m-auto">
+  <div>
+  <header>
+      <div
+        class="border border-white border-4 bg-yellow-400 pt-14 pb-18 px-6 text-gray-950 relative"
+      >
+        <div
+          class="absolute inset-0 bg-[image:radial-gradient(circle,#000_1.0px,transparent_1.0px)] bg-[length:20px_20px] mix-blend-darken"
+        ></div>
+
+        <div class="relative z-10">
+          <h1 class="font-comic -rotate-12 text-3xl">
+            {{ title }}
+          </h1>
+          <h3 class="font-comic -rotate-12 text-lg text-right mt-4">
+            <time datetime="{{ page.date | date: '%Y-%m-%d' }}">
+              {{ page.date | formatDate: "medium" }}
+            </time>
+          </h3>
+        </div>
+      </div>
+      {% if tags %}
+        <div
+        class="border border-b-4 border-x-4 border-white bg-purple-600 p-8 text-gray-950 relative"
+      >
+          {% for tag in tags %}
+            {% if tag != "blog" %}
+              <a class="hover:underline uppercase text-dark mr-4" href="/tags/{{ tag }}">{{ tag }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </header>
+  <article class="max-w-none prose text-white font-body prose-lg prose-list-items:text-white prose-headings:text-white prose-headings:font-comic prose-a:text-yellow-500 prose-blockquote:text-white">    
+    <div class="border border-b-4 border-x-4 p-6 relative bg-gradient-to-r from-gray-600 to-gray-800 w-full">
+      {{ content }}
+    </div>
+  </article>
+  </div>
+</div>

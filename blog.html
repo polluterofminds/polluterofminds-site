@@ -1,0 +1,50 @@
+---
+title: A blog that pollutes your mind
+description: Come, read, and sink into the bliss that is mind pollution | Writing about tech, product, life, and more
+siteName: "@polluterofminds"
+layout: layouts/base.liquid
+image: https://pinata-tutorials.mypinata.cloud/ipfs/QmVJhZCEabf3BG35yzD482rNgstwsHq6QnTStdGimsUAdy
+eleventyImport:
+  collections: ["blog"]
+---
+
+  {% include "head.liquid" %}
+  <div class="grid grid-cols-1 md:grid-cols-1">
+    <div
+      class="border border-white border-4 bg-yellow-400 pt-14 pb-18 px-6 text-gray-950 relative"
+    >
+      <div
+        class="absolute inset-0 bg-[image:radial-gradient(circle,#000_1.0px,transparent_1.0px)] bg-[length:20px_20px] mix-blend-darken"
+      ></div>
+
+      <div class="relative z-10">
+        <h1 class="font-comic -rotate-12 text-5xl">
+          Ramble On
+        </h1>
+        <h3 class="font-comic -rotate-12 text-xl text-right mt-4">
+          Blog Archive
+        </h3>
+      </div>
+    </div>
+      <div
+        class="border border-4 p-6 relative bg-gradient-to-r from-gray-600 to-gray-800"
+      >        
+        <ul>
+          {% assign reversedPosts = collections.blog | reverse %}
+          {% for post in reversedPosts %}
+          <li class="text-xl font-body my-4">
+            <div>
+              <a href="{{ post.url }}">{{ post.data.title }}</a>
+            </div>
+            <div class="flex items-center">
+              {%- for tag in post.data.tags exclude:blog -%} {%- if tag !=
+              "blog" -%}
+              <a class="text-yellow-500 mr-4 text-sm" href="/tags/{{ tag }}">{{ tag }}</a>
+              {%- endif -%} {%- endfor -%}
+              <p class="text-sm">{{ post.data.date | formatDate: "medium" }}</p>
+            </div>
+          </li>
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>

@@ -1,25 +1,27 @@
 {
-  "name": "temp-polluterofminds",
+  "name": "polluterofminds-11ty",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "go-server": "cd go_scripts && go run .",
-    "server": "lite-server --baseDir=\"dist\"", 
-    "tailwind-watcher": "npx tailwindcss -i ./src/assets/styles.css -o ./dist/assets/styles.css --watch",
-    "dev": "concurrently \"npm run go-server\" \"npm run tailwind-watcher\" \"npm run server\"", 
-    "build": "node -v"
+    "build-css": "tailwindcss -i ./assets/css/style.css -o ./assets/css/output.css",
+    "watch-css": "npx @tailwindcss/cli -i ./assets/css/style.css -o ./assets/css/output.css --watch",
+    "build": "npm run build-css && npx @11ty/eleventy",
+    "dev": "concurrently \"npm run watch-css\" \"npx @11ty/eleventy --serve\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "concurrently": "^8.2.2",
-    "tailwindcss": "^3.3.5"
-  },
   "dependencies": {
-    "@tailwindcss/forms": "^0.5.7",
-    "@tailwindcss/typography": "^0.5.10"
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-rss": "^2.0.4",
+    "@tailwindcss/cli": "^4.1.6",
+    "@tailwindcss/postcss": "^4.1.6",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "concurrently": "^9.1.2"
   }
 }
