@@ -47,7 +47,7 @@
   <link rel="me" href="https://warpcast.com/polluterofminds" />
 </head>
 
-  <body class="bg-gray-950 text-white font-sans w-4/5 sm:w-3/4 md:w-3/5 m-auto">
+  <body class="bg-gray-950 text-white font-sans w-4/5 sm:w-3/4 md:w-3/5 m-auto relative">
     <header class="py-6 flex justify-between w-full items-center font-body">
   <div>
     <a href="/">
@@ -60,12 +60,12 @@
     <a class="px-2" href="/projects">Projects</a>
     <a class="px-2" href="/about">About</a>
   </div>
-  <nav class="md:hidden" aria-label="nav button" role="navigation">
-    <div id="menuToggle">
-      <input name="nav" id="nav" type="checkbox" />
-      <span></span>
-      <span></span>
-      <span></span>
+  <nav class="md:hidden z-12" aria-label="nav button" role="navigation">
+    <div class="text-gray-900" id="menuToggle">
+      <input class="z-60 bg-gray-900" name="nav" id="nav" type="checkbox" />
+      <span class="z-60 bg-gray-900" style="z-index:9999;"></span>
+      <span class="z-60 bg-gray-900" style="z-index:9999;"></span>
+      <span class="z-60 bg-gray-900" style="z-index:9999;"></span>
       <ul class="z-60" id="menu">
         <a href="/blog">
           <li>Blog</li>

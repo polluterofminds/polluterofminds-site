@@ -31,15 +31,12 @@
     --font-bold: "Lato Bold", "sans-serif";
 }
 
-#menuToggle
-{
+#menuToggle {
   display: block;
   position: relative;
   top: 5px;
   right: 0px;
-  
-  z-index: 1;
-  
+  z-index: 900; /* High enough but lower than its children */
   -webkit-user-select: none;
   user-select: none;
 }
@@ -58,38 +55,29 @@
 }
 
 
-#menuToggle input
-{
+#menuToggle input {
   display: block;
   width: 40px;
   height: 32px;
   position: absolute;
   top: -7px;
   left: -5px;
-  
   cursor: pointer;
-  
-  opacity: 0; 
-  z-index: 2; 
-  
+  opacity: 0;
+  z-index: 999; /* Increase this to be higher than everything else */
   -webkit-touch-callout: none;
 }
 
-#menuToggle span
-{
+#menuToggle span {
   display: block;
   width: 33px;
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  
   background: #cdcdcd;
   border-radius: 3px;
-  
-  z-index: 1;
-  
+  z-index: 998; /* Just below the input */
   transform-origin: 4px 0px;
-  
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
@@ -123,25 +111,22 @@
   transform: rotate(-45deg) translate(0, -1px);
 }
 
-#menu
-{
-  display: none;
+#menu {
   position: absolute;
   width: 300px;
   height: 500px;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
-  
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
-  
   transform-origin: 0% 0%;
-  transform: translate(100%, 0);
-  
+  transform: translate(200%, 0);
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  opacity: 0;
+  visibility: hidden;
+  z-index: 997; /* Below the input and spans */
 }
 
 #menu li
@@ -150,10 +135,10 @@
   font-size: 22px;
 }
 
-#menuToggle input:checked ~ ul
-{
+#menuToggle input:checked ~ ul {
   transform: translate(-70%, 0);
-  display: block;
+  opacity: 1;
+  visibility: visible;
 }
 
 .prose-lg ul li {
