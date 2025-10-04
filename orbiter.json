@@ -1,0 +1,6 @@
+{
+  "siteId": "3fb7bc40-de66-4aa3-bfb6-5f7b3f74d53f",
+  "domain": "polluterofminds",
+  "buildCommand": "npm run build",
+  "buildDir": "_site"
+}
