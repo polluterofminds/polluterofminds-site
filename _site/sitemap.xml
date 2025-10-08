@@ -427,13 +427,18 @@
         </url>
     
         <url>
-            <loc>https://polluterofminds.com/feed.xml</loc>
+            <loc>https://polluterofminds.com/blog/falling-out-of-love-with-farcaster/</loc>
             <lastmod>2025-10-04</lastmod>
         </url>
     
         <url>
-            <loc>https://polluterofminds.com/blog/falling-out-of-love-with-farcaster/</loc>
-            <lastmod>2025-10-04</lastmod>
+            <loc>https://polluterofminds.com/blog/video-games-as-a-time-capsule/</loc>
+            <lastmod>2025-10-07</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://polluterofminds.com/feed.xml</loc>
+            <lastmod>2025-10-08</lastmod>
         </url>
     
 </urlset>
