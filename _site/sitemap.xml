@@ -437,8 +437,13 @@
         </url>
     
         <url>
-            <loc>https://polluterofminds.com/feed.xml</loc>
+            <loc>https://polluterofminds.com/blog/an-idea-for-two-withered-technologies/</loc>
             <lastmod>2025-10-08</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://polluterofminds.com/feed.xml</loc>
+            <lastmod>2025-10-09</lastmod>
         </url>
     
 </urlset>
