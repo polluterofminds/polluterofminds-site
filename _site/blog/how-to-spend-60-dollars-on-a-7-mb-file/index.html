@@ -122,7 +122,7 @@
         </div>
       
     </header>
-  <article class="max-w-none prose text-white font-body prose-lg prose-list-items:text-white prose-headings:text-white prose-headings:font-comic prose-a:text-yellow-500 prose-blockquote:text-white">    
+  <article class="max-w-none prose text-white font-body prose-lg prose-list-items:text-white prose-headings:text-white prose-headings:font-comic prose-a:text-yellow-500 prose-blockquote:text-white">
     <div class="border border-b-4 border-x-4 p-6 relative bg-gradient-to-r from-gray-600 to-gray-800 w-full">
       <p>I'm not the best at writing automated tests. Sometimes I write them as I go, sometimes I write them before checking my code in, and sometimes I don't write them at all. This is bad practice, and I acknowledge it's an area where I need to improve. And today, I'll walk you through exactly why you shouldn't be like me.</p>
 <p>A little background first:</p>
@@ -146,6 +146,7 @@ const sizeInGb = sizeInMb/1024;
   </article>
   </div>
 </div>
+
     </main>
     <footer>
   <div class="mt-16 flex flex-col items-center">
@@ -225,60 +226,44 @@ const sizeInGb = sizeInMb/1024;
         class="text-sm text-white transition hover:text-gray-600"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://warpcast.com/polluterofminds"
-        aria-label="Warpcast"
+        href="https://polluterofminds.com/feed.xml"
+        aria-label="RSS"
       >
         <svg
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
+          class="fill-current text-gray-700 hover:text-primary-500 dark:text-gray-200 dark:hover:text-primary-400 h-12 w-12 -mr-6 mt-0.5"
           xmlns="http://www.w3.org/2000/svg"
-          class="fill-current text-gray-700 hover:text-primary-500 dark:text-gray-200 dark:hover:text-primary-400 h-7 w-7"
+          viewBox="-271 273 512 512"
         >
           <path
-            d="M23.2 22.2857C23.642 22.2857 24 22.6693 24 23.1429V24H16V23.1429C16 22.6693 16.358 22.2857 16.8 22.2857H23.2Z"
-            fill="currentColor"
+            d="M-271,360v48.9c31.9,0,62.1,12.6,84.7,35.2c22.6,22.6,35.1,52.8,35.1,84.8v0.1h49.1c0-46.6-19-88.7-49.6-119.4
+            C-182.2,379-224.4,360.1-271,360z"
           />
           <path
-            d="M23.2 22.2857V21.4286C23.2 20.955 22.842 20.5714 22.4 20.5714H17.6C17.158 20.5714 16.8 20.955 16.8 21.4286L16.8 22.2857H23.2Z"
-            fill="currentColor"
-          />
-          <path d="M20 0H4V3.42857H20V0Z" fill="currentColor" />
-          <path d="M20 2.57143H4V3.42857H20V2.57143Z" fill="currentColor" />
-          <path
-            d="M23.2 6.85714H0.8L0 3.42857H24L23.2 6.85714Z"
-            fill="currentColor"
+            d="M-237,460.9c-9.4,0-17.8,3.8-24,10s-10,14.6-10,24c0,9.3,3.8,17.7,10,23.9c6.2,6.1,14.6,9.9,24,9.9s17.8-3.7,24-9.9
+            s10-14.6,10-23.9c0-9.4-3.8-17.8-10-24C-219.2,464.7-227.6,460.9-237,460.9z"
           />
           <path
-            d="M22.4 6.85714H17.6L17.6 20.5714H22.4V6.85714Z"
-            fill="currentColor"
-          />
-          <path
-            d="M7.2 22.2857C7.642 22.2857 8 22.6693 8 23.1429V24H0V23.1429C0 22.6693 0.358 22.2857 0.8 22.2857H7.2Z"
-            fill="currentColor"
-          />
-          <path
-            d="M7.2 22.2857V21.4286C7.2 20.955 6.842 20.5714 6.4 20.5714H1.6C1.158 20.5714 0.800001 20.955 0.800001 21.4286L0.8 22.2857H7.2Z"
-            fill="currentColor"
-          />
-          <path
-            d="M6.4 6.85714H1.6L1.6 20.5714H6.4L6.4 6.85714Z"
-            fill="currentColor"
-          />
-          <path
-            d="M6.4 13.6457C6.4 10.332 8.9072 7.64572 12 7.64572C15.0928 7.64572 17.6 10.332 17.6 13.6457V5.07429H6.4V13.6457Z"
-            fill="currentColor"
+            d="M-90.1,348.1c-46.3-46.4-110.2-75.1-180.8-75.1v48.9C-156.8,322-64.1,414.9-64,529h49C-15,458.4-43.7,394.5-90.1,348.1z"
           />
         </svg>
       </a>
-      <a 
+      <a
         class="text-sm text-white transition hover:text-gray-600 pt-1"
         target="_blank"
         rel="noopener noreferrer"
         href="https://bsky.app/profile/polluterofminds.com"
-        aria-label="Bluesky">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -3.268 64 68.414" width="22.4" height="24">
-          <path fill="currentColor" d="M13.873 3.805C21.21 9.332 29.103 20.537 32 26.55v15.882c0-.338-.13.044-.41.867-1.512 4.456-7.418 21.847-20.923 7.944-7.111-7.32-3.819-14.64 9.125-16.85-7.405 1.264-15.73-.825-18.014-9.015C1.12 23.022 0 8.51 0 6.55 0-3.268 8.579-.182 13.873 3.805zm36.254 0C42.79 9.332 34.897 20.537 32 26.55v15.882c0-.338.13.044.41.867 1.512 4.456 7.418 21.847 20.923 7.944 7.111-7.32 3.819-14.64-9.125-16.85 7.405 1.264 15.73-.825 18.014-9.015C62.88 23.022 64 8.51 64 6.55c0-9.818-8.578-6.732-13.873-2.745z"/>
+        aria-label="Bluesky"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 -3.268 64 68.414"
+          width="22.4"
+          height="24"
+        >
+          <path
+            fill="currentColor"
+            d="M13.873 3.805C21.21 9.332 29.103 20.537 32 26.55v15.882c0-.338-.13.044-.41.867-1.512 4.456-7.418 21.847-20.923 7.944-7.111-7.32-3.819-14.64 9.125-16.85-7.405 1.264-15.73-.825-18.014-9.015C1.12 23.022 0 8.51 0 6.55 0-3.268 8.579-.182 13.873 3.805zm36.254 0C42.79 9.332 34.897 20.537 32 26.55v15.882c0-.338.13.044.41.867 1.512 4.456 7.418 21.847 20.923 7.944 7.111-7.32 3.819-14.64-9.125-16.85 7.405 1.264 15.73-.825 18.014-9.015C62.88 23.022 64 8.51 64 6.55c0-9.818-8.578-6.732-13.873-2.745z"
+          />
         </svg>
       </a>
     </div>
