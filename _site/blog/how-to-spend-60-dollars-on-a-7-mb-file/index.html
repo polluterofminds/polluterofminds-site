@@ -122,9 +122,10 @@
         </div>
       
     </header>
-  <article class="max-w-none prose text-white font-body prose-lg prose-list-items:text-white prose-headings:text-white prose-headings:font-comic prose-a:text-yellow-500 prose-blockquote:text-white">
-    <div class="border border-b-4 border-x-4 p-6 relative bg-gradient-to-r from-gray-600 to-gray-800 w-full">
-      <p>I'm not the best at writing automated tests. Sometimes I write them as I go, sometimes I write them before checking my code in, and sometimes I don't write them at all. This is bad practice, and I acknowledge it's an area where I need to improve. And today, I'll walk you through exactly why you shouldn't be like me.</p>
+  <div>
+    <article class="max-w-none prose text-white font-body prose-lg prose-list-items:text-white prose-headings:text-white prose-headings:font-comic prose-a:text-yellow-500 prose-blockquote:text-white">
+      <div class="border border-b-4 border-x-4 p-6 relative bg-gradient-to-r from-gray-600 to-gray-800 w-full">
+        <p>I'm not the best at writing automated tests. Sometimes I write them as I go, sometimes I write them before checking my code in, and sometimes I don't write them at all. This is bad practice, and I acknowledge it's an area where I need to improve. And today, I'll walk you through exactly why you shouldn't be like me.</p>
 <p>A little background first:</p>
 <p>I'm working on a project for my company, <a href="https://pinata.cloud/">Pinata</a>, where we interact with the <a href="https://filecoin.io/">Filecoin</a> blockchain. Filecoin works as an open-market, long-term storage solution for content. Unlike using a service like Amazon S3 Glacier, you can search for a storage provider (called miners) with rates you like and choose that provider to store your content for an agreed amount period of time. At the time of this writing, the minimum amount of time a storage deal can be made for is about six months.</p>
 <p>As part of the process for finding storage providers and proposing a &quot;contract&quot; to store the content, it is important (to us at least) to convert the cost of storage to USD. However, the conversion is not exactly straight forward.</p>
@@ -142,8 +143,10 @@ const sizeInGb = sizeInMb/1024;
 <p>I did not have a unit test in place to verify the price we would be paying did not exceed the price in USD we were comfortable with for six months of storage for any given file size. Because of this, I happened to query a storage provider who quoted a verify high price and a bug in my code missed the verification calculation. So, we ended up paying $60 to store a file that was about 7MB for six months.</p>
 <p>The moral of this story is test, test, test.</p>
 
-    </div>
-  </article>
+        <p class="text-xl font-bold mt-6"><i>Tell me what you thought - <a href="mailto:justin@polluterofminds.com">justin@polluterofminds.com</a></i></p>
+      </div>
+    </article>
+  </div>
   </div>
 </div>
 

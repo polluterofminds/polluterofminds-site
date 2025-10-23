@@ -122,9 +122,10 @@
         </div>
       
     </header>
-  <article class="max-w-none prose text-white font-body prose-lg prose-list-items:text-white prose-headings:text-white prose-headings:font-comic prose-a:text-yellow-500 prose-blockquote:text-white">
-    <div class="border border-b-4 border-x-4 p-6 relative bg-gradient-to-r from-gray-600 to-gray-800 w-full">
-      <p>I've been exploring RSS a lot lately as I try to remove (or at least distance) myself from social media. There are many good options on the market, including self-hosted options, native mobile apps, and web apps. The problem I am facing is that I don't want yet another app.</p>
+  <div>
+    <article class="max-w-none prose text-white font-body prose-lg prose-list-items:text-white prose-headings:text-white prose-headings:font-comic prose-a:text-yellow-500 prose-blockquote:text-white">
+      <div class="border border-b-4 border-x-4 p-6 relative bg-gradient-to-r from-gray-600 to-gray-800 w-full">
+        <p>I've been exploring RSS a lot lately as I try to remove (or at least distance) myself from social media. There are many good options on the market, including self-hosted options, native mobile apps, and web apps. The problem I am facing is that I don't want yet another app.</p>
 <p>As I've been playing around with the Rust programming language more and more, I started building an RSS feed reader just to advance my skills with Rust. But in the process, I had an idea.</p>
 <p>What if I didn't need a new app to receive RSS feeds and read them? What if I could combine two <a href="https://medium.com/@adamagb/nintendo-s-little-known-product-philosophy-lateral-thinking-with-withered-technology-bac7257d8f4">withered technologies</a> (RSS + Email) to create exactly what I wanted? To see how it felt, I mocked up a simple service that fetched my own RSS feed for this blog, filtered only for new updates, and then I used the <code>lettre</code> crate to spin up a simple SMTP server to send emails from a domain I already own with the content of the new feed item.</p>
 <p>This worked relatively well. There are improvements I can make for sure. See the image below for an example of the simple test:</p>
@@ -137,8 +138,10 @@
 </ul>
 <p>But is it all that interesting overall? I don't know. I think I'll build this out a bit more and run it for a few weeks to see how it feels. I think automatically labeling and moving these emails into folders in my email client would enhance the experience. We'll see!</p>
 
-    </div>
-  </article>
+        <p class="text-xl font-bold mt-6"><i>Tell me what you thought - <a href="mailto:justin@polluterofminds.com">justin@polluterofminds.com</a></i></p>
+      </div>
+    </article>
+  </div>
   </div>
 </div>
 

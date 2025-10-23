@@ -122,9 +122,10 @@
         </div>
       
     </header>
-  <article class="max-w-none prose text-white font-body prose-lg prose-list-items:text-white prose-headings:text-white prose-headings:font-comic prose-a:text-yellow-500 prose-blockquote:text-white">
-    <div class="border border-b-4 border-x-4 p-6 relative bg-gradient-to-r from-gray-600 to-gray-800 w-full">
-      <p>Sometime in 2022, I began building <a href="https://writestatic.com">Static</a>, a desktop CMS for static site content. My personal site had bounced around between Ghost and multiple SSG (static site generator) frameworks, and it was while writing a blog post in my code editor that I hit my breaking point. I had just finished installing a spellcheck extension in my VS Code editor when I realized the absurdity of what I was doing. It was, quite frankly, the worst writing experience I ever had, and it killed my motivation to write.</p>
+  <div>
+    <article class="max-w-none prose text-white font-body prose-lg prose-list-items:text-white prose-headings:text-white prose-headings:font-comic prose-a:text-yellow-500 prose-blockquote:text-white">
+      <div class="border border-b-4 border-x-4 p-6 relative bg-gradient-to-r from-gray-600 to-gray-800 w-full">
+        <p>Sometime in 2022, I began building <a href="https://writestatic.com">Static</a>, a desktop CMS for static site content. My personal site had bounced around between Ghost and multiple SSG (static site generator) frameworks, and it was while writing a blog post in my code editor that I hit my breaking point. I had just finished installing a spellcheck extension in my VS Code editor when I realized the absurdity of what I was doing. It was, quite frankly, the worst writing experience I ever had, and it killed my motivation to write.</p>
 <p>So I got to building.</p>
 <p>Static has been around for a while now. All of my blog posts for the last year or so have been written using Static. However, I never did a proper launch of Static as a product or a tool. This was both because I had built it for myself and because I was collecting feedback from early testers. That feedback led me down a path earlier this year of rewriting the app as a web app, but I've since reverted back to desktop because the experience is significantly better. Over the last couple of weeks, I've committed myself to launching–and selling–Static finally.</p>
 <p>To do so, I needed a distributable file that any macOS user could open and run safely on their machine. I'd tried to distribute a simple build by zipping up the .app file I was generating, but no one was able to run the app because of Apple's security settings. Every person who tried it would get an error like the one below.</p>
@@ -211,8 +212,10 @@
 </code></pre>
 <p>That should allow you to sign and notarize your app. Thankfully, I was able to figure this out, and Static is now out there in the world with both an Apple Silicon build and an Intel chip build. If you're interested in using a beautiful WYSIWYG editor to write blog posts to your local SSG site's blog folder, <a href="https://writestatic.com">give Static a try</a>.</p>
 
-    </div>
-  </article>
+        <p class="text-xl font-bold mt-6"><i>Tell me what you thought - <a href="mailto:justin@polluterofminds.com">justin@polluterofminds.com</a></i></p>
+      </div>
+    </article>
+  </div>
   </div>
 </div>
 

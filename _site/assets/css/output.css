@@ -39,6 +39,7 @@
     --default-mono-font-family: var(--font-mono);
     --font-comic: "Permanent Marker", "sans-serif";
     --font-body: "Lato Normal", "sans-serif";
+    --font-bold: "Lato Bold", "sans-serif";
   }
 }
 @layer base {
@@ -834,11 +835,17 @@
       margin-bottom: 0;
     }
   }
+  .mt-0 {
+    margin-top: calc(var(--spacing) * 0);
+  }
   .mt-0\.5 {
     margin-top: calc(var(--spacing) * 0.5);
   }
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
+  }
+  .mt-6 {
+    margin-top: calc(var(--spacing) * 6);
   }
   .mt-8 {
     margin-top: calc(var(--spacing) * 8);
@@ -894,6 +901,9 @@
   .h-full {
     height: 100%;
   }
+  .w-4 {
+    width: calc(var(--spacing) * 4);
+  }
   .w-4\/5 {
     width: calc(4/5 * 100%);
   }
@@ -912,8 +922,14 @@
   .max-w-none {
     max-width: none;
   }
+  .flex-shrink {
+    flex-shrink: 1;
+  }
   .shrink {
     flex-shrink: 1;
+  }
+  .flex-grow {
+    flex-grow: 1;
   }
   .grow {
     flex-grow: 1;
@@ -923,6 +939,12 @@
   }
   .-rotate-12 {
     rotate: calc(12deg * -1);
+  }
+  .transform {
+    transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
+  }
+  .resize {
+    resize: both;
   }
   .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -1043,6 +1065,9 @@
   }
   .font-body {
     font-family: var(--font-body);
+  }
+  .font-bold {
+    font-family: var(--font-bold);
   }
   .font-comic {
     font-family: var(--font-comic);
@@ -1322,6 +1347,26 @@
   list-style-type: decimal;
   color: white;
 }
+@property --tw-rotate-x {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-rotate-y {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-rotate-z {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-skew-x {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-skew-y {
+  syntax: "*";
+  inherits: false;
+}
 @property --tw-space-x-reverse {
   syntax: "*";
   inherits: false;
@@ -1500,6 +1545,11 @@
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
+      --tw-rotate-x: initial;
+      --tw-rotate-y: initial;
+      --tw-rotate-z: initial;
+      --tw-skew-x: initial;
+      --tw-skew-y: initial;
       --tw-space-x-reverse: 0;
       --tw-border-style: solid;
       --tw-gradient-position: initial;
