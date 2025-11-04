@@ -11,7 +11,7 @@ draft: false
 
 That said, even in the midst of coding quite frequently from 2023-2024, I managed to pull out a novel I had written in 2018 and revise it. I polished it and wrote multiple drafts. This was incredibly difficult and the idea of trying to write a new novel entirely was daunting. There's a difference between editing/revising and writing something net new. I would equate it to fixing bugs versus building a new project in coding.
 
-As I submitted that novel to literary agents in hopes of representation (I landed and agent in March!) and as the book was eventually sent out "on sub" to publishers, I needed a way to distract myself from the slow-moving world of publishing. I wanted to write a new novel to do that. But I couldn't do it while I was actively writing code and building new side projects.
+As I submitted that novel to literary agents in hopes of representation (I landed an agent in March!) and as the book was eventually sent out "on sub" to publishers, I needed a way to distract myself from the slow-moving world of publishing. I wanted to write a new novel to do that. But I couldn't do it while I was actively writing code and building new side projects.
 
 So, over the last few months I've reluctantly slowed my coding. Instead of building new things, I have focused on writing a first draft of this new novel. It's largely worked. I have written code here and there, and I have slowed down on my new novel here and there, but I'm now at over 100k words and nearly done with the first (read: vomit) draft.
 
